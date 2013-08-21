@@ -38,7 +38,8 @@ ul, ol {
 /*menu */
 
 .top-bar, .top-bar.expanded .title-area {
-	background: #34495e;	
+	/* background: #34495e;	\
+ */
 }
 .top-bar.expanded .title-area  {
 	border-bottom:1px solid #fff;	
