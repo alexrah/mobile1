@@ -1,0 +1,341 @@
+/*Google fonts - this, to me is a nicer default than Helvetica - plus it's a web font, so no worry about users without Helvetica - yes, we exist. */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic);
+
+/* Joomla specific CSS & basic style overrides to remove the dull Foundation4 defaults. */
+
+/* typography, colours etc */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#2C3E50;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+p {
+	margin-bottom: 0.5em;	
+}
+a, .breadcrumbs > *, .breadcrumbs > * a, .breadcrumbs > * span {
+color:#27AE60;	
+}
+a:hover,.breadcrumbs > * a:hover {
+color:#E67E22;	
+}
+.breadcrumbs > *:before {
+content: "/";
+color: #aaaaaa;
+margin: 0 0.75em;
+position: relative;
+top: -2px;
+}
+
+ul, ol {
+	margin-left: 5px;
+}
+.top-bar ul {
+	margin-left:0;	
+}
+/*menu */
+
+.top-bar, .top-bar.expanded .title-area {
+	background: #34495e;	
+}
+.top-bar.expanded .title-area  {
+	border-bottom:1px solid #fff;	
+}
+.top-bar-section ul li > a{font-weight: lighter;}
+.top-bar a:hover {
+      color: #E67E22; 
+	  }
+	  
+.top-bar-section li a:not(.button), .top-bar-section ul {
+	background:#34495e;  
+}
+.top-bar-section ul li.active > a {
+background: #4e6d8d;
+}
+.top-bar-section li a:not(.button):hover{
+background: #4e6d8d;
+}
+/* Buttons */
+
+.readmore {
+	padding-top: 0.8125em;
+padding-bottom: 0.75em;
+margin: 0 0 1.25em;
+text-align: center;
+display: inline-block;
+padding-right: 1.5em;
+padding-left: 1.5em;
+}
+button, .button, .readmore {
+  border: none;
+  background: #34495e;
+  color: white;
+  font-size: 16.5px;
+  font-weight:normal;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden; 
+  }
+   .panel.green a.button, .panel.callout a.button, .panel.blue a.button, .panel.callout a.button,.panel.green a.button:hover, .panel.callout a.button:hover, .panel.blue a.button:hover {
+	color:white;   
+   }
+.button:hover, .button:focus, .readmore:hover, .readmore:focus {
+background-color: #4e6d8d;
+color: white;
+-webkit-transition: 0.25s;
+-moz-transition: 0.25s;
+-o-transition: 0.25s;
+transition: 0.25s;
+-webkit-backface-visibility: hidden; }
+.button:active, .button.active, .readmore:acive, .readmore.active {
+background-color: #2c3e50;
+color: rgba(255, 255, 255, 0.75);
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none; }
+.button.disabled, .button[disabled] {
+background-color: #95a5a6;
+color: white; }
+.button.button-large {
+padding-bottom: 12px;
+padding-top: 13px; }
+.button.button-primary {
+background-color: #1abc9c; }
+.button.button-primary:hover, .button.button-primary:focus {
+  background-color: #2fe2bf; }
+.button.button-primary:active, .button.button-primary.active {
+  background-color: #16a085; }
+.button.success {
+background-color: #2ecc71; }
+.button.success:hover, .button.success:focus {
+  background-color: #55d98d; }
+.button.success:active, .button.success.active {
+  background-color: #27ad60; }
+.button.warning {
+background-color: #f1c40f; }
+.button.warning:hover, .button.warning:focus {
+  background-color: #f4d03f; }
+.button.warning:active, .button.warning.active {
+  background-color: #cea70c; }
+  .button.info {
+    background-color: #3498db; }
+    .button.info:hover, .button.info:focus {
+      background-color: #5dade2; }
+    .button.info:active, .button.info.active {
+      background-color: #2383c4; }
+  .button.alert {
+    background-color: #e74c3c; }
+    .button.alert:hover, .button.alert:focus {
+      background-color: #ec7063; }
+    .button.alert:active, .button.alert.active {
+      background-color: #dc2d1b; }
+	  
+	  
+/* Other Elements */
+.panel {
+border-style: none;
+border-width: 0px;
+border-color: transparent;
+margin-bottom: 1.25em;
+padding: 1.25em;
+background: #f2f2f2;
+}
+
+.panel.callout, .panel.blue {
+border-style: none;
+border-width: 0px;
+border-color: transparent;
+margin-bottom: 1.25em;
+padding: 1.25em;
+background: #3498db;
+-webkit-box-shadow: none;
+box-shadow:none;
+}
+.panel.callout a, .panel.blue a {
+	color:#f1c40f;
+}
+.panel.green {
+	background: #2ecc71;
+}
+.panel.green a {
+color:#3498db;
+}
+.panel.green a:hover, .panel.callout a:hover, .panel.blue a:hover {
+color:#E67E22;
+}
+.panel.yellow {
+	background: #f1c40f; 
+}  
+.panel.green p, .panel.yellow p {
+	color:#fff;	
+}
+
+.sidebar {
+	padding:0;	
+}
+	  
+	  
+/* com_content stuff */
+ul.inline {
+	margin-bottom:5px;	
+}
+ul.inline li {
+	display:inline-block;
+	margin-right:3px;
+	padding-right:8px;
+	font-size:0.85em;
+	font-weight:lighter;
+	font-style:italic;
+	border-right: 1px solid #999;
+	line-height: 1;
+
+}
+ul.inline li:last-child {
+		border-right: none;
+
+}
+.actions {
+	float:right;	
+}
+ul.actions, ul.pager.pagenav {
+	list-style:none;
+	margin-left:0;	
+}
+ul.actions li {
+	display:inline;
+	margin-right:5px;
+}
+ul.actions li a{
+	display:inline-block;
+	zoom:1;
+	*display:inline;	
+	width:16px;
+	height:16px;
+	text-indent:-9999999px;
+}
+
+ul.actions li.print a {
+	background:url(../images/systemIcons/print.png) 0 0 no-repeat;
+}
+ul.actions li.email a {
+	background:url(../images/systemIcons/email.png) 0 0 no-repeat;
+}
+ul.actions li.edit a{
+	background:url(../images/systemIcons/edit.png) 0 0 no-repeat;
+}
+ul.pager.pagenav li {
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	margin-right:10px;
+}
+.pagination {
+  display: block;
+  height: auto;
+  margin-left: 0; 
+  margin-bottom:10px;
+  overflow:hidden;  
+  }
+  .pagination ul {
+	text-align:center;  
+  }
+  .pagination ul li {
+    display: block;
+    float: left;
+    height: auto;
+    color: #222222;
+    font-size: 0.875em;
+    margin-left: 0.3125em; }
+    .pagination ul li a {
+      display: block;
+      padding: 0.0625em 0.4375em 0.0625em;
+      color: #999999; }
+    .pagination ul li:hover a,
+    .pagination ul li a:focus {
+      background: #27AE60;
+	  color:white; }
+    .pagination ul li.unavailable a {
+      cursor: default;
+      color: #999999; }
+    .pagination ul li.unavailable:hover a, .pagination li.unavailable a:focus {
+      background: transparent; }
+    .pagination ul li.current a {
+      background: #27AE60;
+      color: white;
+      font-weight: bold;
+      cursor: default; }
+      .pagination ul li.current a:hover, .pagination li.current a:focus {
+        background: #27AE60; 
+		color:white;
+		}
+
+/* Tags */
+	.tags, .tagspopular ul li {
+	margin-bottom:10px;	
+	}
+  .tags > span > a, .tagspopular ul li a{
+    border-radius: 4px;
+    background: #1abc9c;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding: 4px 8px 4px 8px;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    -webkit-transition: 0.14s linear;
+    -moz-transition: 0.14s linear;
+    -o-transition: 0.14s linear;
+    transition: 0.14s linear;
+    -webkit-backface-visibility: hidden; 
+	font-size:80%;
+	font-weight:normal;
+}
+.tags > span  > a:hover, .tagspopular ul li a:hover {
+     background-color: #16a085;
+}
+
+/* module overrides */
+
+ul.latestnews, .tagspopular ul {
+	list-style:none;	
+}
+.section-container > section .content {
+	overflow:hidden;	
+}
+.section-container > section .content > .button:last-child {
+	padding-bottom: 0.75em !important;	
+	float:right;
+}
+
+ /* Foundation overrides */
+ 
+ .row .row {
+width: auto;
+margin-left: 0;
+margin-right: 0;
+margin-top: 0;
+margin-bottom: 0;
+max-width: none;
+}
+.row > .row {
+width: auto;
+margin-left: -0.9375em;
+margin-right: -0.9375em;
+margin-top: 0;
+margin-bottom: 0;
+max-width: none;
+}
