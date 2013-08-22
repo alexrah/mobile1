@@ -14,6 +14,8 @@ defined('_JEXEC') or die;
 <nav class="top-bar">
  <ul class="title-area">
     <!-- Title Area -->
+
+    <li class="right language"><a href="#"><span>Ita/Eng</span></a></li>
 			    <li class="name">
     
       <h1><a href="#"></a></h1>
@@ -21,7 +23,8 @@ defined('_JEXEC') or die;
 
     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar homemenu"><a href="#"><span>Menu</span></a></li>
-    <li class="toggle-topbar language" style="right: 0;"><a href="#"><span>Ita/Eng</span></a></li>
+    <!-- <li class="right language"><a href="#"><span>Ita/Eng</span></a></li>\
+ -->
   </ul>
 <section class="top-bar-section">
     <!-- Left Nav Section -->

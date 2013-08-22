@@ -17,6 +17,14 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/foundation.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/siegeengine.css" />
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/custom.modernizr.js"></script>
+
+<script src="http://cufon.shoqolate.com/js/cufon-yui.js" type="text/javascript"></script>
+<script src="templates/siegeengine2/js/impact.cufonfonts.js" type="text/javascript"></script>
+<script type="text/javascript">
+Cufon.replace('p', { fontFamily: 'Impact', hover: true }); 
+Cufon.replace('li', { fontFamily: 'Impact', hover: true }); 
+</script>
+
       <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->

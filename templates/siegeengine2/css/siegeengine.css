@@ -13,13 +13,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   /* font-family: 'Source Sans Pro', sans-serif;\
  */
-  font-family: impact;
+  /* font-family: impact; */
 }
 p {
 	margin-bottom: 0.5em;	
 }
 a, .breadcrumbs > *, .breadcrumbs > * a, .breadcrumbs > * span {
-color:#27AE60;	
+color:#222222;	
 }
 a:hover,.breadcrumbs > * a:hover {
 color:#E67E22;	
