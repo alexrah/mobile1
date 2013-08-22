@@ -2813,11 +2813,11 @@ label.error {
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 30px;
+  line-height: 30px;
   position: relative;
   background: #ffffff;
-  margin-bottom: 1.875em; }
+  margin-bottom: -0.5em; }
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -2836,11 +2836,11 @@ label.error {
     position: relative;
     margin: 0; }
   .top-bar .name {
-    height: 45px;
+    height: 30px;
     margin: 0;
     font-size: 16; }
     .top-bar .name h1 {
-      line-height: 45px;
+      line-height: 30px;
       font-size: 1.0625em;
       margin: 0; }
       .top-bar .name h1 a {
@@ -2858,23 +2858,23 @@ label.error {
     left: 0;
     float: left;
   }
-  li.language>a>span {
+
+    li.language>a>span {   /* CONTROL THE ITA/ENG MENU */
     display: inline-block;
     position: relative;
-    /* left: 0; */
-    /* clear: left; */
     top: 5px;
     font-size: 1em;
     width: 100%;
     text-transform: uppercase;
     padding: 0px 15px;
-    height: 45px;
-    line-height: 45px;
+    height: 25px;
+    line-height: 25px;
     width: 100%;
 }
  li.language.right>a>span:hover {
     background-color: #222222; 
 }
+
     .top-bar .toggle-topbar a {
       width: 100%;
       color: #222222;
@@ -3028,12 +3028,15 @@ label.error {
 
 @media only screen and (min-width: 58.75em) {
    li.language.right>a>span {
-    position: inline;
-    float: right;
-    /* left: 20%; */
-    /* clear: left; */
-    /* float: right; */
-    top: 0px;
+     text-align: right;
+     padding-top: 5px;
+    position: fixed;
+    right:100px;
+    display: none;
+    margin-right:0px;
+  }
+  .language-wide{
+    display: inline-block;
   }
   .top-bar {
     /* background: #111111; */
@@ -3106,7 +3109,7 @@ label.error {
     .top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
       border: none;
       content: "\00bb";
-      margin-top: -16px;
+      /* margin-top: -16px; */
       right: 5px; }
     .top-bar-section .dropdown {
       left: 0;
@@ -3117,7 +3120,7 @@ label.error {
         color: white;
         line-height: 1;
         white-space: nowrap;
-        padding: 7px 15px;
+        padding: 0px 15px;
         background: #1e1e1e; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;

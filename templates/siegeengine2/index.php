@@ -21,8 +21,8 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
 <script src="http://cufon.shoqolate.com/js/cufon-yui.js" type="text/javascript"></script>
 <script src="templates/siegeengine2/js/impact.cufonfonts.js" type="text/javascript"></script>
 <script type="text/javascript">
-Cufon.replace('p', { fontFamily: 'Impact', hover: true }); 
-Cufon.replace('li', { fontFamily: 'Impact', hover: true }); 
+// Cufon.replace('p', { fontFamily: 'Impact', hover: true }); 
+// Cufon.replace('li', { fontFamily: 'Impact', hover: true }); 
 </script>
 
       <!--[if lt IE 9]>

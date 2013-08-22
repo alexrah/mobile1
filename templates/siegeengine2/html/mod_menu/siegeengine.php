@@ -16,16 +16,21 @@ defined('_JEXEC') or die;
     <!-- Title Area -->
 
     <li class="right language"><a href="#"><span>Ita/Eng</span></a></li>
-			    <li class="name">
-    
-      <h1><a href="#"></a></h1>
-    </li>
+			    <!-- <li class="name">\
+ -->
+    <!-- \
+ -->
+    <!--   <h1><a href="#"></a></h1>\
+ -->
+    <!-- </li>\
+ -->
 
     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar homemenu"><a href="#"><span>Menu</span></a></li>
-    <!-- <li class="right language"><a href="#"><span>Ita/Eng</span></a></li>\
- -->
+
   </ul>
+
+   <ul class="top-bar-section"> <li class="title-area right language-wide"><a href="#"><span>Ita/Eng</span></a></li></ul>
 <section class="top-bar-section">
     <!-- Left Nav Section -->
     <ul class="left <?php echo $class_sfx;?>"<?php
