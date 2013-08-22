@@ -20,7 +20,8 @@ defined('_JEXEC') or die;
     </li>
 
     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
+    <li class="toggle-topbar homemenu"><a href="#"><span>Menu</span></a></li>
+    <li class="toggle-topbar language" style="right: 0;"><a href="#"><span>Ita/Eng</span></a></li>
   </ul>
 <section class="top-bar-section">
     <!-- Left Nav Section -->

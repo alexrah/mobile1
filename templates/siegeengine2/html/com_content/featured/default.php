@@ -16,7 +16,9 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 ?>
 <div class="blog-featured<?php echo $this->pageclass_sfx;?>">
 <?php if ($this->params->get('show_page_heading') != 0) : ?>
-<header class="page-header"><h1><?php echo $this->escape($this->params->get('page_heading')); ?></h1></header>
+<!-- <header class="page-header"> -->
+<!-- <small><h1><?php // echo $this->escape($this->params->get('page_heading')); ?></h1></small> -->
+<!-- </header> -->
 <?php endif; ?>
 <?php if (!empty($this->lead_items)) : ?>
 <section class="leading-articles">

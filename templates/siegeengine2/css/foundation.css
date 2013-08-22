@@ -1076,7 +1076,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 2.125em; }
+  font-size: 1em; }
 
 h2 {
   font-size: 1.6875em; }
@@ -1223,7 +1223,9 @@ blockquote p {
     line-height: 1.4; }
 
   h1 {
-    font-size: 2.75em; }
+    /* font-size: 2.75em;  */
+    font-size: 1em; 
+  }
 
   h2 {
     font-size: 2.3125em; }
@@ -2848,9 +2850,20 @@ label.error {
         padding: 0 15px; }
   .top-bar .toggle-topbar {
     position: absolute;
-    left: 0;
+    /* left: 0; */
     top: 5px;
   }
+  .top-bar .toggle-topbar .homemenu {
+    left: 0;
+  }
+  .top-bar .toggle-topbar .language {
+    /* position: absolute; */
+    right: 0;
+    /* float: right; */
+    /* top: 5px; */
+}
+
+
     .top-bar .toggle-topbar a {
       width: 100%;
       color: #222222;
