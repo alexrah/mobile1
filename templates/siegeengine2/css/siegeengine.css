@@ -6,11 +6,14 @@
 /* typography, colours etc */
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
-	color:#2C3E50;
+	/* font-family: 'Source Sans Pro', sans-serif;\
+ */
+	color:#222222;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif;\
+ */
+  font-family: impact;
 }
 p {
 	margin-bottom: 0.5em;	
@@ -44,19 +47,24 @@ ul, ol {
 .top-bar.expanded .title-area  {
 	border-bottom:1px solid #fff;	
 }
-.top-bar-section ul li > a{font-weight: lighter;}
+.top-bar-section ul li > a{font-weight: 100;}
 .top-bar a:hover {
-      color: #E67E22; 
+      color: white; 
 	  }
+.toggle-topbar a:hover {
+      color: white; 
+      background-color: #222222;
+	  }
+
 	  
 .top-bar-section li a:not(.button), .top-bar-section ul {
-	background:#34495e;  
+	background:white;
 }
 .top-bar-section ul li.active > a {
 background: #4e6d8d;
 }
 .top-bar-section li a:not(.button):hover{
-background: #4e6d8d;
+background: #222222;
 }
 /* Buttons */
 
@@ -339,4 +347,43 @@ margin-right: -0.9375em;
 margin-top: 0;
 margin-bottom: 0;
 max-width: none;
+}
+.item-101{
+  display: none;
+}
+/* Gradient color1 - color2 - color1 */
+		
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+    margin: 0px auto;
+}
+div.banner-logo{
+  /* margin: 20px auto; */
+  text-align: center;
+}
+div.banner-logo>a>img{
+  max-width: 100%;
+}
+
+/* .print-icon{ */
+/*   background-image:url('../images/systemIcons/print.png'); */
+/*   margin-left: 5px; */
+/*   background-repeat: no-repeat; */
+/* } */
+/* .icon-print{ */
+/*   color: #222222; */
+/*   font-size: 0.5em; */
+/*   font-family:sans-serif; */
+/* } */
+
+.email-icon{
+  background-image:url('../images/systemIcons/email.png');
+  margin-left: 5px;
+  background-repeat: no-repeat;
 }

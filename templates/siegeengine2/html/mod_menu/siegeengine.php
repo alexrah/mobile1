@@ -20,11 +20,11 @@ defined('_JEXEC') or die;
     </li>
 
     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
   </ul>
 <section class="top-bar-section">
     <!-- Left Nav Section -->
-    <ul class="right <?php echo $class_sfx;?>"<?php
+    <ul class="left <?php echo $class_sfx;?>"<?php
         $tag = '';
         if ($params->get('tag_id') != null)
         {
