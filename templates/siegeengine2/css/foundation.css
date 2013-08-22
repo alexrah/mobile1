@@ -3035,8 +3035,9 @@ label.error {
     display: none;
     margin-right:0px;
   }
-  .language-wide{
-    display: inline-block;
+  .top-bar-section .language-wide{
+    display: inline;
+    margin-top: -7px;
   }
   .top-bar {
     /* background: #111111; */
