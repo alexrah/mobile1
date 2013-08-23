@@ -3,9 +3,9 @@
 
 @font-face
 {
-font-family: myFirstFont;
+font-family: impact;
 src: url('../fonts/Impact.ttf');
-     url('Sansation_Light.eot'); /* IE9 */
+     url('..\fonts\Impact.eot'); /* IE9 */
 }
 
 /* Joomla specific CSS & basic style overrides to remove the dull Foundation4 defaults. */
@@ -75,12 +75,16 @@ ul, ol {
 	  
 .top-bar-section li a:not(.button), .top-bar-section ul {
 	background:white;
+  color: #222222;
+  /* margin-left: 15px; */
+  padding: 0 15px
 }
 .top-bar-section ul li.active > a {
 background: #4e6d8d;
 }
 .top-bar-section li a:not(.button):hover{
-background: #222222;
+  background: #222222;
+  color: white;
 }
 /* Buttons */
 
@@ -371,13 +375,13 @@ max-width: none;
 		
 hr.style-one {
     border: 0;
-    height: 1px;
+    height: 3px;
     background: #333;
-    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
-    margin: 0px auto;
+    background-image: -webkit-linear-gradient(left, #333, #333, #333); 
+    background-image:    -moz-linear-gradient(left, #333, #333, #333); 
+    background-image:     -ms-linear-gradient(left, #333, #333, #333); 
+    background-image:      -o-linear-gradient(left, #333, #333, #333); 
+    margin: 0px 15px;
 }
 div.banner-logo{
   /* margin: 20px auto; */
