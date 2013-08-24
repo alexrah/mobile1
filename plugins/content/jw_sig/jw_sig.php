@@ -185,6 +185,7 @@ class plgContentJw_sig extends JPlugin {
 				
 				// HTML & CSS assignments
 				$srcimgfolder = $galleries_rootfolder.'/'.$galleryFolder;
+				$srcimgfolder_BIG = $galleries_rootfolder.'/big/'.$galleryFolder;
 				$gal_id = substr(md5($key.$srcimgfolder), 1, 10);
 
 				// Render the gallery
