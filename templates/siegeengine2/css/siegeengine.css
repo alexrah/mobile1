@@ -4,9 +4,12 @@
 @font-face
 {
 font-family: impact;
-src: url('../fonts/Impact.ttf');
-     url('..\fonts\Impact.eot'); /* IE9 */
+src: url('../fonts/Impact.eot');  /* fix IE not working with if ttf is the default format */
+src: url('../fonts/Impact.eot?#iefix') format('embedded-opentype'), /* IE9 */
+     url('../fonts/Impact.woff') format('woff'),
+     url('../fonts/Impact.ttf') format('truetype');
 }
+
 
 /* Joomla specific CSS & basic style overrides to remove the dull Foundation4 defaults. */
 
