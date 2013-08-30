@@ -1,0 +1,371 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*== 1200px and beyond ===================================================
+========================================================================*/
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+/*== Up to 1200px =====================================================
+========================================================================*/
+/* Large desktop */
+@media (max-width: 1200px) {
+  h1,
+  h2,
+  h3,
+  .item_title {
+    letter-spacing: 2px;
+  }
+  #contact_map {
+    height: 376px;
+  }
+  .camera_caption > div {
+    font: 300 30px/40px 'Open Sans', sans-serif !important;
+    letter-spacing: 0px !important;
+  }
+  .camera_caption > div span {
+    font-size: 40px !important;
+  }
+  .camera_caption {
+    top: 30% !important;
+    right: 5% !important;
+    left: auto !important;
+    width: auto;
+  }
+  .camera_prev,
+  .camera_next,
+  .camera_commands {
+    bottom: 10% !important;
+  }
+  .mod-custom .address strong {
+    font: 800 18px/44px 'Open Sans', sans-serif !important;
+  }
+  .mod-newsflash-adv__image .item .item_img a .item_introtext > span {
+    font-size: 20px;
+  }
+  a.text {
+    font: 16px/21px 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+  }
+  a.text b {
+    font: 800 36px/39px 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+  }
+  a.text i {
+    font: 800 24px/28px 'Open Sans', sans-serif;
+  }
+  a.text > span {
+    font: 800 30px/34px 'Open Sans', sans-serif;
+  }
+  a.text > span span {
+    font-size: 34px;
+  }
+  .mod-newsflash-adv__team .item_img {
+    margin-right: 10px;
+  }
+}
+/*== Up to 980px ======================================================
+========================================================================*/
+/* Narrow desktop */
+@media (max-width: 980px) {
+  .camera_caption {
+    margin-left: -490px;
+  }
+  .mod-custom .address {
+    letter-spacing: 0px;
+    padding: 38px 20px 26px;
+  }
+  .mod-newsflash-adv__image .item .item_img a .item_introtext > span {
+    font-size: 14px;
+  }
+  .thumbnails {
+    margin-left: -12px;
+  }
+  .thumbnails > li {
+    margin-left: 12px;
+  }
+  /*footer*/
+  #back-top {
+    display: none !important;
+  }
+}
+/*== Up to 980px and beyond 768px ======================================
+========================================================================*/
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .navigation ul.sf-menu > li > a,
+  .navigation ul.sf-menu > li > span {
+    width: 124px;
+  }
+  #logo {
+    margin-bottom: 64px;
+    margin-top: 35px;
+  }
+  .camera_wrap {
+    margin-top: -243px !important;
+  }
+  .camera_caption {
+    display: none !important;
+  }
+  .camera_next,
+  .camera_prev {
+    right: 6% !important;
+  }
+  a.text {
+    font: 16px/21px 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+  }
+  a.text b {
+    font: 800 34px/39px 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+  }
+  a.text i {
+    font: 800 22px/28px 'Open Sans', sans-serif;
+  }
+  a.text > span {
+    font: 800 22px/34px 'Open Sans', sans-serif;
+  }
+  a.text > span span {
+    font-size: 32px;
+  }
+}
+/*== Up to 767px ======================================================
+========================================================================*/
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+  body .row-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  #top-row .rightBg {
+    display: none;
+  }
+  .camera_caption {
+    display: none !important;
+  }
+  .camera_wrap {
+    margin-top: -216px !important;
+  }
+  .camera_next,
+  .camera_prev {
+    display: none;
+  }
+  #logo {
+    margin: 0 0 60px !important;
+  }
+  #content-row .row-container #aside-left .moduletable.top,
+  #content-row .row-container #aside-right .moduletable.top {
+    margin-bottom: 0;
+  }
+  #wrapper {
+    margin: 0;
+  }
+  #footer-wrapper {
+    height: auto;
+  }
+  #push {
+    display: none;
+  }
+  /*navigation*/
+  .select-menu {
+    display: block;
+    width: 100%;
+  }
+  .sf-menu {
+    display: none;
+  }
+  /*content*/
+  .item-image.blog-image {
+    float: none;
+    margin: 0 0 20px 0;
+  }
+  .row-fluid [class*="itemSpan"] {
+    display: block;
+    float: none;
+    margin-left: 0;
+    width: auto;
+  }
+  /*gallery*/
+  .page-gallery ul.gallery .gallery-item {
+    float: none;
+  }
+  .page-gallery ul.gallery .gallery-item .item_img {
+    float: left;
+    margin: 0 18px 18px 0 !important;
+  }
+  .img-full__left.span5 {
+    width: 50%;
+  }
+  /*contact*/
+  .contact_details .contact_details_item {
+    width: 30%;
+    float: left;
+  }
+  /*Modules*/
+  /*search*/
+  .mod-search__aside .mod-search_searchword {
+    width: 50%;
+  }
+  /*login*/
+  .mod-login__aside .mod-login_username,
+  .mod-login__aside .mod-login_passwd {
+    width: 50%;
+  }
+  #back-top {
+    display: none !important;
+  }
+}
+/*== Up to 640px ==================================================
+====================================================================*/
+@media (max-width: 690px) {
+  #wrapper {
+    background: url(../images/template/header-bg.jpg) no-repeat center 0;
+    background-size: auto !important;
+  }
+  #camera-slideshow {
+    display: none !important;
+  }
+  .mod-newsflash-adv__team .item {
+    width: 50% !important;
+  }
+  /*contact*/
+  .contact_details {
+    margin-bottom: 18px;
+  }
+  .contact_details .contact_details_item {
+    width: 100%;
+    float: none;
+  }
+}
+@media (max-width: 550px) {
+  #logo a {
+    display: block;
+  }
+}
+/*== Up to 480px ==================================================
+====================================================================*/
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .page-archive .item_published,
+  .page-item__blog .item_published,
+  .page-blog .item_published {
+    float: none;
+    margin-bottom: 10px;
+  }
+  /*contact*/
+  .contact_form {
+    width: 100%;
+  }
+  /*registration*/
+  .page-registration form input,
+  .page-remind form input,
+  .page-reset form input,
+  .page-login form input,
+  .page-login form input,
+  .page-profile__edit form input,
+  .page-registration form select,
+  .page-remind form select,
+  .page-reset form select,
+  .page-login form select,
+  .page-login form select,
+  .page-profile__edit form select {
+    width: 100%;
+  }
+  .page-registration form label,
+  .page-remind form label,
+  .page-reset form label,
+  .page-login form label,
+  .page-login form label,
+  .page-profile__edit form label {
+    display: inline-block;
+  }
+  .pagination ul li {
+    display: none;
+  }
+  .pagination ul li.pagination-prev,
+  .pagination ul li.pagination-next {
+    display: inline-block;
+  }
+  /*gallery*/
+  .page-gallery .item_img.img-intro {
+    float: none;
+    margin: 0 0 18px 0;
+  }
+  .page-gallery ul.gallery .gallery-item {
+    text-align: center;
+  }
+  .page-gallery ul.gallery .gallery-item .item_img {
+    float: none;
+    margin: 0 0 18px 0 !important;
+  }
+  .page-gallery ul.gallery .gallery-item a.zoom {
+    display: block;
+  }
+  .img-full__left.span5 {
+    width: 100%;
+    margin-right: 0;
+  }
+  /*blog*/
+  .page-blog .item_img.img-intro {
+    float: none;
+    margin: 0 0 18px 0;
+  }
+  /*archive*/
+  .page-archive_filters select {
+    display: block;
+    width: 100%;
+  }
+  /*contact*/
+  .contact_details .contact_details_item {
+    width: 100%;
+    float: none;
+  }
+  /*Modules*/
+  /*search*/
+  .mod-search__aside .mod-search_searchword {
+    width: 100%;
+  }
+  /*login*/
+  .mod-login__aside .mod-login_userdata {
+    width: 100%;
+    overflow: hidden;
+  }
+  .mod-login__aside .mod-login_username,
+  .mod-login__aside .mod-login_passwd {
+    width: 100%;
+  }
+}
+/*== Up to 340px =====================================================
+========================================================================*/
+/* Portrait phones */
+@media (max-width: 340px) {
+  
+}

@@ -1,0 +1,372 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+#fancybox-buttons	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons {$/;"	s
+#fancybox-buttons 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons {$/;"	i
+#fancybox-buttons a 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a {$/;"	i
+#fancybox-buttons a.btnClose 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnClose {$/;"	i
+#fancybox-buttons a.btnDisabled 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnDisabled {$/;"	i
+#fancybox-buttons a.btnNext 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnNext {$/;"	i
+#fancybox-buttons a.btnPlay 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnPlay {$/;"	i
+#fancybox-buttons a.btnPlayOn 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnPlayOn {$/;"	i
+#fancybox-buttons a.btnPrev 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnPrev {$/;"	i
+#fancybox-buttons a.btnToggle 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnToggle {$/;"	i
+#fancybox-buttons a.btnToggleOn 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnToggleOn {$/;"	i
+#fancybox-buttons a:hover 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a:hover {$/;"	i
+#fancybox-buttons ul 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons ul {$/;"	i
+#fancybox-buttons ul li 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons ul li {$/;"	i
+#fancybox-buttons.bottom	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons.bottom {$/;"	s
+#fancybox-buttons.bottom 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons.bottom {$/;"	i
+#fancybox-buttons.top	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons.top {$/;"	s
+#fancybox-buttons.top 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons.top {$/;"	i
+#fancybox-loading	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^#fancybox-loading {$/;"	s
+#fancybox-loading	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {$/;"	i
+#fancybox-loading 	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^#fancybox-loading {$/;"	i
+#fancybox-loading div 	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^#fancybox-loading div {$/;"	i
+#fancybox-thumbs	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs {$/;"	s
+#fancybox-thumbs 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs {$/;"	i
+#fancybox-thumbs ul 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul {$/;"	i
+#fancybox-thumbs ul li 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul li {$/;"	i
+#fancybox-thumbs ul li a 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul li a {$/;"	i
+#fancybox-thumbs ul li img 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul li img {$/;"	i
+#fancybox-thumbs ul li.active 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul li.active {$/;"	i
+#fancybox-thumbs ul li:hover 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul li:hover {$/;"	i
+#fancybox-thumbs.bottom	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs.bottom {$/;"	s
+#fancybox-thumbs.bottom 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs.bottom {$/;"	i
+#fancybox-thumbs.top	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs.top {$/;"	s
+#fancybox-thumbs.top 	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs.top {$/;"	i
+$.fn.fancybox	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.js	/^	$.fn.fancybox = function (options) {$/;"	c
+.child	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-title-float-wrap .child {$/;"	s
+.fancybox-close	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {$/;"	c
+.fancybox-close	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-close {$/;"	c
+.fancybox-close	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-close {$/;"	s
+.fancybox-error	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-error {$/;"	c
+.fancybox-error	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-error {$/;"	s
+.fancybox-iframe	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-image, .fancybox-iframe {$/;"	c
+.fancybox-iframe	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-image, .fancybox-iframe {$/;"	s
+.fancybox-image	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-image {$/;"	c
+.fancybox-image	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-image {$/;"	s
+.fancybox-image	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-image, .fancybox-iframe {$/;"	c
+.fancybox-image	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-image,$/;"	c
+.fancybox-inner	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-inner {$/;"	c
+.fancybox-inner	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-inner {$/;"	s
+.fancybox-inner	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-inner,$/;"	c
+.fancybox-inner	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-outer, .fancybox-inner {$/;"	c
+.fancybox-inner	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-outer, .fancybox-inner {$/;"	s
+.fancybox-inner	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-type-iframe .fancybox-inner {$/;"	s
+.fancybox-lock	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-lock {$/;"	c
+.fancybox-lock	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-lock {$/;"	s
+.fancybox-lock .fancybox-overlay	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-lock .fancybox-overlay {$/;"	c
+.fancybox-nav	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-nav {$/;"	c
+.fancybox-nav	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-nav {$/;"	s
+.fancybox-nav	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-nav,$/;"	c
+.fancybox-nav span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-nav span {$/;"	c
+.fancybox-nav span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-nav span,$/;"	c
+.fancybox-nav:hover span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-nav:hover span {$/;"	c
+.fancybox-next	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-next {$/;"	c
+.fancybox-next	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-next {$/;"	s
+.fancybox-next span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {$/;"	c
+.fancybox-next span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-next span {$/;"	c
+.fancybox-opened	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-opened {$/;"	c
+.fancybox-opened	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-opened {$/;"	s
+.fancybox-opened .fancybox-skin	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-opened .fancybox-skin {$/;"	c
+.fancybox-opened .fancybox-title	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-opened .fancybox-title {$/;"	c
+.fancybox-outer	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-outer, .fancybox-inner {$/;"	c
+.fancybox-outer	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-outer,$/;"	c
+.fancybox-overlay	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-lock .fancybox-overlay {$/;"	s
+.fancybox-overlay	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-overlay {$/;"	c
+.fancybox-overlay	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-overlay {$/;"	s
+.fancybox-overlay-fixed	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-overlay-fixed {$/;"	c
+.fancybox-overlay-fixed	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-overlay-fixed {$/;"	s
+.fancybox-prev	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-prev {$/;"	c
+.fancybox-prev	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-prev {$/;"	s
+.fancybox-prev span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {$/;"	c
+.fancybox-prev span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-prev span {$/;"	c
+.fancybox-skin	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-opened .fancybox-skin {$/;"	s
+.fancybox-skin	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-skin {$/;"	c
+.fancybox-skin	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-skin {$/;"	s
+.fancybox-skin	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-skin,$/;"	c
+.fancybox-title	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-opened .fancybox-title {$/;"	s
+.fancybox-title	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-title {$/;"	c
+.fancybox-title	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-title {$/;"	s
+.fancybox-title-float-wrap	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-title-float-wrap {$/;"	c
+.fancybox-title-float-wrap	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-title-float-wrap {$/;"	s
+.fancybox-title-float-wrap .child	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-title-float-wrap .child {$/;"	c
+.fancybox-title-inside-wrap	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-title-inside-wrap {$/;"	s
+.fancybox-title-outside-wrap	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-title-outside-wrap {$/;"	s
+.fancybox-title-over-wrap	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-title-over-wrap {$/;"	s
+.fancybox-tmp	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-tmp {$/;"	c
+.fancybox-tmp	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-tmp {$/;"	s
+.fancybox-tmp{	padding: 0	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^	padding: 0;$/;"	c
+.fancybox-type-iframe .fancybox-inner	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-type-iframe .fancybox-inner {$/;"	c
+.fancybox-wrap	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-wrap {$/;"	c
+.fancybox-wrap	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-wrap {$/;"	s
+.fancybox-wrap	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-wrap,$/;"	c
+.fancybox-wrap iframe	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-wrap iframe,$/;"	c
+.fancybox-wrap object	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-wrap object,$/;"	c
+.sigFreeContainer	jw_sig/includes/css/print.css	/^	.sigFreeContainer {display:none;}$/;"	c
+.sigFreeContainer	jw_sig/includes/css/print.css	/^	.sigFreeContainer {display:none;}$/;"	s
+.sigFreeDownloadLink:hover	jw_sig/tmpl/Classic/css/template.css	/^a.sigFreeDownloadLink,a.sigFreeDownloadLink:hover { background:url(..\/images\/disk.png) no-repeat left center; padding:4px 0 4px 20px; }$/;"	c
+.sigFreePrintMessage	jw_sig/includes/css/print.css	/^	.sigFreePrintMessage {display:block;color:#999;font-size:14px;padding:8px 0;}$/;"	c
+.sigFreePrintMessage	jw_sig/includes/css/print.css	/^	.sigFreePrintMessage {display:block;color:#999;font-size:14px;padding:8px 0;}$/;"	s
+.sigFreePrintMessage	jw_sig/tmpl/Classic/css/template.css	/^.sigFreePrintMessage {display:none;}$/;"	c
+.sigFreePrintMessage	jw_sig/tmpl/Classic/css/template.css	/^.sigFreePrintMessage {display:none;}$/;"	s
+DS	jw_sig.php	/^			define('DS', DIRECTORY_SEPARATOR);$/;"	d
+F.helpers.buttons.defaults	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.js	/^		defaults : {$/;"	p
+F.helpers.media.defaults	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-media.js	/^		defaults : {$/;"	p
+F.helpers.overlay.defaults	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.js	/^		defaults : {$/;"	p
+F.helpers.thumbs.defaults	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.js	/^		defaults : {$/;"	p
+F.helpers.title.defaults	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.js	/^		defaults : {$/;"	p
+F.transitions.changeIn	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.js	/^		changeIn: function () {$/;"	m
+F.transitions.changeOut	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.js	/^		changeOut: function () {$/;"	m
+F.transitions.getOrigPosition	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.js	/^		getOrigPosition: function () {$/;"	m
+F.transitions.step	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.js	/^		step: function (now, fx) {$/;"	m
+F.transitions.zoomIn	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.js	/^		zoomIn: function () {$/;"	m
+F.transitions.zoomOut	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.js	/^		zoomOut: function () {$/;"	m
+PE_FANCYBOX_LOADED	jw_sig/includes/js/jquery_fancybox/popup.php	/^	define('PE_FANCYBOX_LOADED', true);$/;"	d
+SIGHelper.ieBrowserDetect	jw_sig/includes/js/behaviour.js	/^	ieBrowserDetect: function(){$/;"	m
+SIGHelper.loader	jw_sig/includes/js/behaviour.js	/^	loader: function(func) {$/;"	m
+SimpleImageGalleryHelper	jw_sig/includes/helper.php	/^class SimpleImageGalleryHelper {$/;"	c
+a	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a {$/;"	s
+a	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul li a {$/;"	s
+a.btnClose	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnClose {$/;"	s
+a.btnDisabled	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnDisabled {$/;"	s
+a.btnNext	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnNext {$/;"	s
+a.btnPlay	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnPlay {$/;"	s
+a.btnPlayOn	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnPlayOn {$/;"	s
+a.btnPrev	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnPrev {$/;"	s
+a.btnToggle	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnToggle {$/;"	s
+a.btnToggleOn	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a.btnToggleOn {$/;"	s
+a.sigFreeDownloadLink	jw_sig/tmpl/Classic/css/template.css	/^a.sigFreeDownloadLink,a.sigFreeDownloadLink:hover { background:url(..\/images\/disk.png) no-repeat left center; padding:4px 0 4px 20px; }$/;"	s
+a.sigFreeDownloadLink,a.sigFreeDownloadLink:hover	jw_sig/tmpl/Classic/css/template.css	/^a.sigFreeDownloadLink,a.sigFreeDownloadLink:hover { background:url(..\/images\/disk.png) no-repeat left center; padding:4px 0 4px 20px; }$/;"	s
+a.sigFreeLink	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink { color:#eee; }$/;"	s
+a.sigFreeLink:hover	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE7 ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover { float:left; }$/;"	s
+a.sigFreeLink:hover	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover { color:#222; text-decoration:none; }$/;"	s
+a.sigFreeLink:hover	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover { position:relative; float:left; display:block; padding:0; margin:0; border:none; }$/;"	s
+a:active	jw_sig/tmpl/Classic/css/template.css	/^a:active,a:focus { outline:0; }$/;"	s
+a:active,a:focus	jw_sig/tmpl/Classic/css/template.css	/^a:active,a:focus { outline:0; }$/;"	s
+a:hover	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons a:hover {$/;"	s
+afterLoad	jw_sig/includes/js/jquery_fancybox/popup.php	/^				afterLoad : function() {$/;"	j
+allowedFormats	jw_sig.php	/^		$allowedFormats = array('', 'html', 'feed', 'json');$/;"	v
+b	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic span.sigFreePseudoCaption b { visibility:hidden; }$/;"	s
+b.fancyboxCounter	jw_sig/includes/js/jquery_fancybox/popup.php	/^					this.title = \\'<b class="fancyboxCounter">'.JText::_('JW_PLG_SIG_FB_IMAGE').' \\' + (this.index + 1) + \\' '.JText::_('JW_PLG_SIG_FB_OF').' \\' + this.group.length + \\'<\/b>\\' + (this.title ? \\' | \\' + this.title : \\'\\');$/;"	c
+b.helpers.overlay.defaults	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.pack.js	/^b.previous,d=a.prevEffect,e={opacity:0.1},c=b.direction;"elastic"===d&&(e["down"===c||"up"===c?"top":"left"]=("up"===c||"left"===c?"-":"+")+"=200px");a.wrap.animate(e,{duration:"none"===d?0:a.prevSpeed,easing:a.prevEasing,complete:function(){f(this).trigger("onReset").remove()}})}};b.helpers.overlay={defaults:{closeClick:!0,speedOut:200,showEarly:!0,css:{},locked:!s,fixed:!0},overlay:null,fixed:!1,create:function(a){a=f.extend({},this.defaults,a);this.overlay&&this.close();this.overlay=f('<div class="fancybox-overlay"><\/div>').appendTo("body");$/;"	p
+b.helpers.title.defaults	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.pack.js	/^this.update()},afterClose:function(a){this.overlay&&!b.isActive&&this.overlay.fadeOut(a.speedOut,f.proxy(this.close,this))}};b.helpers.title={defaults:{type:"float",position:"bottom"},beforeShow:function(a){var d=b.current,e=d.title,c=a.type;f.isFunction(e)&&(e=e.call(d.element,d));if(p(e)&&""!==f.trim(e)){d=f('<div class="fancybox-title fancybox-title-'+c+'-wrap">'+e+"<\/div>");switch(c){case "inside":c=b.skin;break;case "outside":c=b.wrap;break;case "over":c=b.inner;break;default:c=b.skin,d.appendTo("body"),$/;"	p
+b.transitions.changeIn	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.pack.js	/^{duration:"none"===d?0:a.closeSpeed,easing:a.closeEasing,step:e?this.step:null,complete:b._afterZoomOut})},changeIn:function(){var a=b.current,d=a.nextEffect,e=a.pos,c={opacity:1},f=b.direction,g;e.opacity=0.1;"elastic"===d&&(g="down"===f||"up"===f?"top":"left","down"===f||"right"===f?(e[g]=x(l(e[g])-200),c[g]="+=200px"):(e[g]=x(l(e[g])+200),c[g]="-=200px"));"none"===d?b._afterZoomIn():b.wrap.css(e).animate(c,{duration:a.nextSpeed,easing:a.nextEasing,complete:b._afterZoomIn})},changeOut:function(){var a=$/;"	m
+b.transitions.getOrigPosition	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.pack.js	/^a||b.current;f(".fancybox-wrap").trigger("onReset").remove();f.extend(b,{group:{},opts:{},router:!1,current:null,isActive:!1,isOpened:!1,isOpen:!1,isClosing:!1,wrap:null,skin:null,outer:null,inner:null});b.trigger("afterClose",a)}});b.transitions={getOrigPosition:function(){var a=b.current,d=a.element,e=a.orig,c={},f=50,g=50,h=a.hPadding,j=a.wPadding,m=b.getViewport();!e&&(a.isDom&&d.is(":visible"))&&(e=d.find("img:first"),e.length||(e=d));t(e)?(c=e.offset(),e.is("img")&&(f=e.outerWidth(),g=e.outerHeight())):$/;"	m
+b.transitions.step	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.pack.js	/^(c.top=m.y+(m.h-g)*a.topRatio,c.left=m.x+(m.w-f)*a.leftRatio);if("fixed"===b.wrap.css("position")||a.locked)c.top-=m.y,c.left-=m.x;return c={top:x(c.top-h*a.topRatio),left:x(c.left-j*a.leftRatio),width:x(f+j),height:x(g+h)}},step:function(a,d){var e,c,f=d.prop;c=b.current;var g=c.wrapSpace,h=c.skinSpace;if("width"===f||"height"===f)e=d.end===d.start?1:(a-d.start)\/(d.end-d.start),b.isClosing&&(e=1-e),c="width"===f?c.wPadding:c.hPadding,c=a-c,b.skin[f](l("width"===f?c:c-g*e)),b.inner[f](l("width"===$/;"	m
+b.transitions.zoomIn	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.pack.js	/^f?c:c-g*e-h*e))},zoomIn:function(){var a=b.current,d=a.pos,e=a.openEffect,c="elastic"===e,k=f.extend({opacity:1},d);delete k.position;c?(d=this.getOrigPosition(),a.openOpacity&&(d.opacity=0.1)):"fade"===e&&(d.opacity=0.1);b.wrap.css(d).animate(k,{duration:"none"===e?0:a.openSpeed,easing:a.openEasing,step:c?this.step:null,complete:b._afterZoomIn})},zoomOut:function(){var a=b.current,d=a.closeEffect,e="elastic"===d,c={opacity:0.1};e&&(c=this.getOrigPosition(),a.closeOpacity&&(c.opacity=0.1));b.wrap.animate(c,$/;"	m
+b.transitions.zoomOut	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.pack.js	/^f?c:c-g*e-h*e))},zoomIn:function(){var a=b.current,d=a.pos,e=a.openEffect,c="elastic"===e,k=f.extend({opacity:1},d);delete k.position;c?(d=this.getOrigPosition(),a.openOpacity&&(d.opacity=0.1)):"fade"===e&&(d.opacity=0.1);b.wrap.css(d).animate(k,{duration:"none"===e?0:a.openSpeed,easing:a.openEasing,step:c?this.step:null,complete:b._afterZoomIn})},zoomOut:function(){var a=b.current,d=a.closeEffect,e="elastic"===d,c={opacity:0.1};e&&(c=this.getOrigPosition(),a.closeOpacity&&(c.opacity=0.1));b.wrap.animate(c,$/;"	m
+body.sigFreeIsIE6	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE6 { }$/;"	s
+body.sigFreeIsIE6 	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE6 { }$/;"	s
+body.sigFreeIsIE6 ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkOuterWrapper 	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE6 ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkOuterWrapper { background:url(..\/images\/shadow.gif) no-repeat right bottom; padding:0 5px 5px 0; }$/;"	s
+body.sigFreeIsIE6 ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkWrapper 	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE6 ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkWrapper { margin:0; }$/;"	s
+body.sigFreeIsIE6 ul.sigFreeClassic span.sigFreeCaption 	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE6 ul.sigFreeClassic span.sigFreeCaption { width:100%; padding:2px 0; cursor:pointer; }$/;"	s
+body.sigFreeIsIE6 ul.sigFreeClassic span.sigFreePseudoCaption	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE6 ul.sigFreeClassic span.sigFreePseudoCaption,$/;"	s
+body.sigFreeIsIE7	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE7 { }$/;"	s
+body.sigFreeIsIE7 	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE7 { }$/;"	s
+body.sigFreeIsIE7 ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE7 ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink,$/;"	s
+body.sigFreeIsIE7 ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover 	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE7 ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover { float:left; }$/;"	s
+body.sigFreeIsIE7 ul.sigFreeClassic span.sigFreePseudoCaption	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE7 ul.sigFreeClassic span.sigFreePseudoCaption,$/;"	s
+body.sigFreeIsIE8 ul.sigFreeClassic span.sigFreePseudoCaption 	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE8 ul.sigFreeClassic span.sigFreePseudoCaption { filter:alpha(opacity=70); }$/;"	s
+border: 0	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^	border: 0;$/;"	s
+buttons.prev	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.js	/^					prev   : this.list.find('.btnPrev').click( F.prev ),$/;"	p
+c	jw_sig/includes/js/jquery_fancybox/fancybox/lib/jquery.mousewheel-3.0.6.pack.js	/^(function(d){function e(a){var b=a||window.event,c=[].slice.call(arguments,1),f=0,e=0,g=0,a=d.event.fix(b);a.type="mousewheel";b.wheelDelta&&(f=b.wheelDelta\/120);b.detail&&(f=-b.detail\/3);g=f;b.axis!==void 0&&b.axis===b.HORIZONTAL_AXIS&&(g=0,e=-1*f);b.wheelDeltaY!==void 0&&(g=b.wheelDeltaY\/120);b.wheelDeltaX!==void 0&&(e=-1*b.wheelDeltaX\/120);c.unshift(a,f,e,g);return(d.event.dispatch||d.event.handle).apply(this,c)}var c=["DOMMouseScroll","mousewheel"];if(d.event.fixHooks)for(var h=c.length;h;)d.event.fixHooks[c[--h]]=$/;"	v
+c.top	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.pack.js	/^(c.top=m.y+(m.h-g)*a.topRatio,c.left=m.x+(m.w-f)*a.leftRatio);if("fixed"===b.wrap.css("position")||a.locked)c.top-=m.y,c.left-=m.x;return c={top:x(c.top-h*a.topRatio),left:x(c.left-j*a.leftRatio),width:x(f+j),height:x(g+h)}},step:function(a,d){var e,c,f=d.prop;c=b.current;var g=c.wrapSpace,h=c.skinSpace;if("width"===f||"height"===f)e=d.end===d.start?1:(a-d.start)\/(d.end-d.start),b.isClosing&&(e=1-e),c="width"===f?c.wPadding:c.hPadding,c=a-c,b.skin[f](l("width"===f?c:c-g*e)),b.inner[f](l("width"===$/;"	p
+cacheFolderPath	jw_sig/includes/helper.php	/^		$cacheFolderPath = JPATH_SITE.DS.'cache'.DS.'jw_sig';$/;"	v
+cache_expire_time	jw_sig.php	/^		$cache_expire_time = $pluginParams->get('cache_expire_time', 1440) * 60; \/\/ Cache expiration time in minutes$/;"	v
+cleanThumbName	jw_sig/includes/helper.php	/^	public static function cleanThumbName($text_to_parse)$/;"	f
+count	jw_sig.php	/^		$count = count($matches[0]);$/;"	v
+customLinkAttributes	jw_sig.php	/^						$customLinkAttributes = ' '.$customLinkAttributes;$/;"	v
+customLinkAttributes	jw_sig.php	/^					$customLinkAttributes = '';$/;"	v
+db	jw_sig/includes/helper.php	/^			$db = JFactory::getDBO();$/;"	v
+div	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^#fancybox-loading div {$/;"	s
+div ul.sigFreeClassic 	jw_sig/tmpl/Classic/css/template.css	/^div ul.sigFreeClassic {$/;"	s
+div.sigFreeModulePosition	jw_sig/tmpl/Classic/css/template.css	/^div.sigFreeModulePosition { text-align:center; border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:4px; margin:8px 0; background:#ffffdd; }$/;"	s
+div.sigFreeModulePosition 	jw_sig/tmpl/Classic/css/template.css	/^div.sigFreeModulePosition { text-align:center; border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:4px; margin:8px 0; background:#ffffdd; }$/;"	s
+div.sigFreePrintMessage	jw_sig/tmpl/Classic/default.php	/^<div class="sigFreePrintMessage">$/;"	c
+document	jw_sig.php	/^		$document  = JFactory::getDocument();$/;"	v
+element	jw_sig/tmpl/Classic/css/template.css	/^\/* IE specific styling: Use "body.sigFreeIsIEX element {}" - where X is 6, 7 or 8 - to target elements for these browser versions only *\/$/;"	s
+extraClass	jw_sig.php	/^						$extraClass = ' '.$extraClass;$/;"	v
+extraClass	jw_sig.php	/^					$extraClass = '';$/;"	v
+extraClass	jw_sig/includes/js/jquery_fancybox/popup.php	/^$extraClass = 'fancybox-button';$/;"	v
+extraWrapperClass	jw_sig.php	/^						$extraWrapperClass = ' '.$extraWrapperClass;$/;"	v
+extraWrapperClass	jw_sig.php	/^					$extraWrapperClass = '';$/;"	v
+f.fn.fancybox	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.pack.js	/^H&&d.width(d.width()),d.wrapInner('<span class="child"><\/span>'),b.current.margin[2]+=Math.abs(l(d.css("margin-bottom")))}d["top"===a.position?"prependTo":"appendTo"](c)}}};f.fn.fancybox=function(a){var d,e=f(this),c=this.selector||"",k=function(g){var h=f(this).blur(),j=d,k,l;!g.ctrlKey&&(!g.altKey&&!g.shiftKey&&!g.metaKey)&&!h.is(".fancybox-wrap")&&(k=a.groupAttr||"data-fancybox-group",l=h.attr(k),l||(k="rel",l=h.get(0)[k]),l&&(""!==l&&"nofollow"!==l)&&(h=c.length?f(c):e,h=h.filter("["+k+'="'+l+$/;"	c
+fileInfo	jw_sig/includes/helper.php	/^			$fileInfo = pathinfo($srcImage);$/;"	v
+fileTypes	jw_sig/includes/helper.php	/^		$fileTypes = array('jpg', 'jpeg', 'gif', 'png');$/;"	v
+focus 	jw_sig/tmpl/Classic/css/template.css	/^a:active,a:focus { outline:0; }$/;"	s
+found	jw_sig/includes/helper.php	/^		$found = array();$/;"	v
+gal_id	jw_sig.php	/^				$gal_id = substr(md5($key.$srcimgfolder), 1, 10);$/;"	v
+galleries_rootfolder	jw_sig.php	/^			$galleries_rootfolder = substr($galleries_rootfolder, 0, -1);$/;"	v
+galleries_rootfolder	jw_sig.php	/^			$galleries_rootfolder = substr($galleries_rootfolder, 1);$/;"	v
+galleries_rootfolder	jw_sig.php	/^		$galleries_rootfolder = ($params->get('galleries_rootfolder')) ? $params->get('galleries_rootfolder') : $pluginParams->get('galleries_rootfolder' );$/;"	v
+gallery	jw_sig.php	/^				$gallery = SimpleImageGalleryHelper::renderGallery($srcimgfolder, $thb_width, $thb_height, $smartResize, $jpg_quality, $cache_expire_time, $gal_id);$/;"	v
+gallery	jw_sig/includes/helper.php	/^		$gallery = array();$/;"	v
+galleryFolder	jw_sig.php	/^					$galleryFolder 	= $tagcontent;$/;"	v
+galleryFolder	jw_sig.php	/^					$galleryFolder 	= $tagparams[0];$/;"	v
+getTemplate	jw_sig.php	/^				$getTemplate = $this->plg_copyrights_start.ob_get_contents().$this->plg_copyrights_end;$/;"	v
+getTemplatePath	jw_sig/includes/helper.php	/^	public static function getTemplatePath($pluginName, $file, $tmpl)$/;"	f
+img	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul li img {$/;"	s
+img.sigFreeImg	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover img.sigFreeImg { display:block; width:100%; height:100%; padding:0; margin:0; border:none; background-repeat:no-repeat; background-position:50% 50%; }$/;"	s
+img.sigFreeImg	jw_sig/tmpl/Classic/default.php	/^					<img class="sigFreeImg" src="<?php echo $transparent; ?>" alt="<?php echo JText::_('JW_PLG_SIG_CLICK_TO_ENLARGE_IMAGE').' '.$photo->filename; ?>" title="<?php echo JText::_('JW_PLG_SIG_CLICK_TO_ENLARGE_IMAGE').' '.$photo->filename; ?>" style="width:<?php echo $photo->width; ?>px;height:<?php echo $photo->height; ?>px;background-image:url(<?php echo $photo->thumbImageFilePath; ?>);" \/>$/;"	c
+itemPrintURL	jw_sig.php	/^					$itemPrintURL = $itemPrintURL[0].'#sigFreeId'.$gal_id;$/;"	v
+itemPrintURL	jw_sig.php	/^					$itemPrintURL = $websiteURL.$_SERVER['REQUEST_URI'];$/;"	v
+itemPrintURL	jw_sig.php	/^					$itemPrintURL = explode("#", $itemPrintURL);$/;"	v
+itemPrintURL	jw_sig.php	/^					$itemPrintURL = false;$/;"	v
+jQueryHandling	jw_sig.php	/^		$jQueryHandling = $pluginParams->get('jQueryHandling', '1.8');$/;"	v
+jTemplate	jw_sig/includes/helper.php	/^			$jTemplate = $db->loadResult();$/;"	v
+jTemplate	jw_sig/includes/helper.php	/^		$jTemplate = $mainframe->getTemplate();$/;"	v
+jpg_quality	jw_sig.php	/^		$jpg_quality = $pluginParams->get('jpg_quality', 80);$/;"	v
+l.sigFreeClassic span.sigFreeCaption 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic span.sigFreePseudoCaption,ul.sigFreeClassic span.sigFreeCaption { display:block; position:absolute; bottom:0; left:0; right:0; text-align:center; padding:2px 4px; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; }$/;"	s
+legacyHeadIncludes	jw_sig.php	/^					$legacyHeadIncludes = '';$/;"	v
+li	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons ul li {$/;"	s
+li	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul li {$/;"	s
+li.active	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul li.active {$/;"	s
+li.sigFreeClear	jw_sig/tmpl/Classic/css/template.css	/^li.sigFreeClear { clear:both; float:none!important; height:0!important; line-height:0!important; border:none!important; background:none!important; width:auto; margin:0!important; padding:0!important; }$/;"	s
+li.sigFreeClear	jw_sig/tmpl/Classic/default.php	/^	<li class="sigFreeClear">&nbsp;<\/li>$/;"	c
+li.sigFreeClear 	jw_sig/tmpl/Classic/css/template.css	/^li.sigFreeClear { clear:both; float:none!important; height:0!important; line-height:0!important; border:none!important; background:none!important; width:auto; margin:0!important; padding:0!important; }$/;"	s
+li.sigFreeThumb	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb { float:left; background:#fff!important; margin:5px; padding:0; list-style:none!important; }$/;"	s
+li.sigFreeThumb	jw_sig/tmpl/Classic/default.php	/^	<li class="sigFreeThumb">$/;"	c
+li:hover	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul li:hover {$/;"	s
+mainframe	jw_sig.php	/^    $mainframe = JFactory::getApplication();$/;"	v
+mainframe	jw_sig/includes/helper.php	/^		$mainframe = JFactory::getApplication();$/;"	v
+margin: 0	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^	margin: 0;$/;"	s
+memoryLimit	jw_sig.php	/^		$memoryLimit = (int)$pluginParams->get('memoryLimit');$/;"	v
+onContentPrepare	jw_sig.php	/^	function onContentPrepare($context, &$row, &$params, $page = 0)$/;"	f
+onPrepareContent	jw_sig.php	/^	function onPrepareContent(&$row, &$params, $page = 0)$/;"	f
+original	jw_sig/includes/helper.php	/^			$original = $sitePath.str_replace('\/', DS, $srcimgfolder).DS.$filename;$/;"	v
+outline: none	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^	outline: none;$/;"	s
+p	jw_sig/includes/helper.php	/^		$p = new JObject;$/;"	v
+params	jw_sig.php	/^			$params = class_exists('JParameter') ? new JParameter(null) : new JRegistry(null);$/;"	v
+parsedInModule	jw_sig.php	/^		$parsedInModule = $params->get('parsedInModule');$/;"	v
+plgContentJw_sig	jw_sig.php	/^	function plgContentJw_sig( &$subject, $params ){$/;"	f
+plgContentJw_sig	jw_sig.php	/^class plgContentJw_sig extends JPlugin {$/;"	c
+plg_copyrights_end	jw_sig.php	/^			$this->plg_copyrights_end = '';$/;"	v
+plg_copyrights_end	jw_sig.php	/^	var $plg_copyrights_end			= "\\n<!-- JoomlaWorks \\"Simple Image Gallery\\" Plugin (v3.0.0) ends here -->\\n\\n";$/;"	v
+plg_copyrights_start	jw_sig.php	/^			$this->plg_copyrights_start = '';$/;"	v
+plg_copyrights_start	jw_sig.php	/^	var $plg_copyrights_start		= "\\n\\n<!-- JoomlaWorks \\"Simple Image Gallery\\" Plugin (v3.0.0) starts here -->\\n";$/;"	v
+plg_html	jw_sig.php	/^				$plg_html = $getTemplate;$/;"	v
+plg_name	jw_sig.php	/^	var $plg_name								= "jw_sig";$/;"	v
+plg_tag	jw_sig.php	/^	var $plg_tag								= "gallery";$/;"	v
+plugin	jw_sig.php	/^		$plugin = JPluginHelper::getPlugin('content', $this->plg_name);$/;"	v
+pluginCSS	jw_sig.php	/^					$pluginCSS = $pluginCSS->http;$/;"	v
+pluginCSS	jw_sig.php	/^					$pluginCSS = SimpleImageGalleryHelper::getTemplatePath($this->plg_name, 'css\/template.css', $thb_template);$/;"	v
+pluginGroup	jw_sig/includes/helper.php	/^		$pluginGroup = 'content';$/;"	v
+pluginLivePath	jw_sig.php	/^			$pluginLivePath = $siteUrl.'\/plugins\/content\/'.$this->plg_name.'\/'.$this->plg_name;$/;"	v
+pluginLivePath	jw_sig.php	/^			$pluginLivePath = $siteUrl.'\/plugins\/content\/'.$this->plg_name;$/;"	v
+pluginParams	jw_sig.php	/^		$pluginParams = class_exists('JParameter') ? new JParameter($plugin->params) : new JRegistry($plugin->params);$/;"	v
+popupPath	jw_sig.php	/^					$popupPath = "{$pluginLivePath}\/includes\/js\/{$popup_engine}";$/;"	v
+popupRequire	jw_sig.php	/^					$popupRequire = dirname(__FILE__).DS.$this->plg_name.DS.'includes'.DS.'js'.DS.$popup_engine.DS.'popup.php';$/;"	v
+popup_engine	jw_sig.php	/^		$popup_engine = 'jquery_fancybox';$/;"	v
+pos.top	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.js	/^				top     : getValue(pos.top  - hPadding * current.topRatio),$/;"	p
+prefix	jw_sig/includes/helper.php	/^		$prefix = "jw_sig_cache_";$/;"	v
+print	jw_sig/includes/css/print.css	/^@media print {$/;"	s
+query	jw_sig/includes/helper.php	/^				$query = "SELECT template FROM #__template_styles WHERE client_id = 0 AND home = 1";$/;"	v
+query	jw_sig/includes/helper.php	/^				$query = "SELECT template FROM #__templates_menu WHERE client_id = 0 AND menuid = 0";$/;"	v
+regex	jw_sig.php	/^		$regex = "#{".$this->plg_tag."}(.*?){\/".$this->plg_tag."}#is";$/;"	v
+relName	jw_sig.php	/^					$relName = '';$/;"	v
+relName	jw_sig/includes/js/jquery_fancybox/popup.php	/^$relName = 'fancybox-button';$/;"	v
+renderGallery	jw_sig/includes/helper.php	/^	public static function renderGallery($srcimgfolder, $thb_width, $thb_height, $smartResize, $jpg_quality, $cache_expire_time, $gal_id)$/;"	f
+renderSimpleImageGallery	jw_sig.php	/^	function renderSimpleImageGallery(&$row, &$params, $page = 0){$/;"	f
+replaceWhiteSpace	jw_sig/includes/helper.php	/^	public static function replaceWhiteSpace($text_to_parse)$/;"	f
+replacement_html	jw_sig/includes/helper.php	/^		$replacement_html = array("%20");$/;"	v
+replacement_html	jw_sig/includes/helper.php	/^		$replacement_html = array('_', '_');$/;"	v
+scriptDeclarations	jw_sig/includes/js/jquery_fancybox/popup.php	/^	$scriptDeclarations = array('$/;"	v
+scriptDeclarations	jw_sig/includes/js/jquery_fancybox/popup.php	/^	$scriptDeclarations = array();$/;"	v
+scripts	jw_sig/includes/js/jquery_fancybox/popup.php	/^$scripts = array($/;"	v
+showcaptions	jw_sig.php	/^		$showcaptions = 0;$/;"	v
+sitePath	jw_sig.php	/^		$sitePath = JPATH_SITE;$/;"	v
+sitePath	jw_sig/includes/helper.php	/^		$sitePath = JPATH_SITE.'\/';$/;"	v
+siteUrl	jw_sig.php	/^		$siteUrl  = JURI::root(true);$/;"	v
+siteUrl	jw_sig/includes/helper.php	/^			$siteUrl = JURI::root(true).'';$/;"	v
+siteUrl	jw_sig/includes/helper.php	/^			$siteUrl = JURI::root(true).'\/';$/;"	v
+smartResize	jw_sig.php	/^		$smartResize = 1;$/;"	v
+source	jw_sig/includes/helper.php	/^						$source = @ imagecreatefromgif($original);$/;"	v
+source	jw_sig/includes/helper.php	/^						$source = NULL;$/;"	v
+source	jw_sig/includes/helper.php	/^						$source = imagecreatefromjpeg($original);$/;"	v
+source	jw_sig/includes/helper.php	/^						$source = imagecreatefrompng($original);$/;"	v
+source_html	jw_sig/includes/helper.php	/^		$source_html = array(" ");$/;"	v
+source_html	jw_sig/includes/helper.php	/^		$source_html = array(' ', ',');$/;"	v
+span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {$/;"	s
+span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-nav span {$/;"	s
+span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-nav:hover span {$/;"	s
+span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-next span {$/;"	s
+span	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^.fancybox-prev span {$/;"	s
+span.sigFreeCaption	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE6 ul.sigFreeClassic span.sigFreeCaption { width:100%; padding:2px 0; cursor:pointer; }$/;"	s
+span.sigFreeCaption	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic span.sigFreePseudoCaption,ul.sigFreeClassic span.sigFreeCaption { display:block; position:absolute; bottom:0; left:0; right:0; text-align:center; padding:2px 4px; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; }$/;"	s
+span.sigFreeLinkOuterWrapper	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE6 ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkOuterWrapper { background:url(..\/images\/shadow.gif) no-repeat right bottom; padding:0 5px 5px 0; }$/;"	s
+span.sigFreeLinkOuterWrapper	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkOuterWrapper { display:block; float:left; margin:0; padding:0 5px 5px 0; background:url(..\/images\/shadowAlpha.png) no-repeat right bottom; }$/;"	s
+span.sigFreeLinkOuterWrapper	jw_sig/tmpl/Classic/default.php	/^		<span class="sigFreeLinkOuterWrapper">$/;"	c
+span.sigFreeLinkWrapper	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE6 ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkWrapper { margin:0; }$/;"	s
+span.sigFreeLinkWrapper	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkWrapper { display:block; float:left; margin:-5px 0 0 -5px; padding:4px; border:1px solid #ccc; }$/;"	s
+span.sigFreeLinkWrapper	jw_sig/tmpl/Classic/default.php	/^			<span class="sigFreeLinkWrapper">$/;"	c
+span.sigFreePopupCaption	jw_sig/tmpl/Classic/css/template.css	/^span.sigFreePopupCaption { font-weight:bold; color:#C63C13; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; }$/;"	s
+span.sigFreePopupCaption 	jw_sig/tmpl/Classic/css/template.css	/^span.sigFreePopupCaption { font-weight:bold; color:#C63C13; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; }$/;"	s
+span.sigFreePseudoCaption	jw_sig/tmpl/Classic/css/template.css	/^body.sigFreeIsIE8 ul.sigFreeClassic span.sigFreePseudoCaption { filter:alpha(opacity=70); }$/;"	s
+span.sigFreePseudoCaption	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink span.sigFreePseudoCaption { background:#000; }$/;"	s
+span.sigFreePseudoCaption	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover span.sigFreePseudoCaption { background:#fff; }$/;"	s
+span.sigFreePseudoCaption	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic span.sigFreePseudoCaption { opacity:0.7; -moz-opacity:0.7; }$/;"	s
+special.mousewheel.setup	jw_sig/includes/js/jquery_fancybox/fancybox/lib/jquery.mousewheel-3.0.6.pack.js	/^d.event.mouseHooks;d.event.special.mousewheel={setup:function(){if(this.addEventListener)for(var a=c.length;a;)this.addEventListener(c[--a],e,false);else this.onmousewheel=e},teardown:function(){if(this.removeEventListener)for(var a=c.length;a;)this.removeEventListener(c[--a],e,false);else this.onmousewheel=null}};d.fn.extend({mousewheel:function(a){return a?this.bind("mousewheel",a):this.trigger("mousewheel")},unmousewheel:function(a){return this.unbind("mousewheel",a)}})})(jQuery);/;"	m
+special.mousewheel.teardown	jw_sig/includes/js/jquery_fancybox/fancybox/lib/jquery.mousewheel-3.0.6.pack.js	/^d.event.mouseHooks;d.event.special.mousewheel={setup:function(){if(this.addEventListener)for(var a=c.length;a;)this.addEventListener(c[--a],e,false);else this.onmousewheel=e},teardown:function(){if(this.removeEventListener)for(var a=c.length;a;)this.removeEventListener(c[--a],e,false);else this.onmousewheel=null}};d.fn.extend({mousewheel:function(a){return a?this.bind("mousewheel",a):this.trigger("mousewheel")},unmousewheel:function(a){return this.unbind("mousewheel",a)}})})(jQuery);/;"	m
+srcFolder	jw_sig/includes/helper.php	/^		$srcFolder = JFolder::files($sitePath.$srcimgfolder);$/;"	v
+srcimgfolder	jw_sig.php	/^				$srcimgfolder = $galleries_rootfolder.'\/'.$galleryFolder;$/;"	v
+srcimgfolder_BIG	jw_sig.php	/^        $srcimgfolder_BIG = $galleries_rootfolder.'\/'.$galleryFolder. '\/big\/'; $/;"	v
+stylesheetDeclarations	jw_sig/includes/js/jquery_fancybox/popup.php	/^$stylesheetDeclarations = array();$/;"	v
+stylesheets	jw_sig/includes/js/jquery_fancybox/popup.php	/^$stylesheets = array($/;"	v
+success	jw_sig/includes/helper.php	/^				$success = imagejpeg($thumb, $thumbimage, $jpg_quality);$/;"	v
+table.contentpaneopen	jw_sig/tmpl/Classic/css/template.css	/^table.contentpaneopen { width:100%; }$/;"	s
+table.contentpaneopen 	jw_sig/tmpl/Classic/css/template.css	/^table.contentpaneopen { width:100%; }$/;"	s
+tagcontent	jw_sig.php	/^				$tagcontent = preg_replace("\/{.+?}\/", "", $match);$/;"	v
+tagparams	jw_sig.php	/^					$tagparams 			= explode(':',$tagcontent);$/;"	v
+templatePath	jw_sig.php	/^				$templatePath = $templatePath->file;$/;"	v
+templatePath	jw_sig.php	/^				$templatePath = SimpleImageGalleryHelper::getTemplatePath($this->plg_name, 'default.php', $thb_template);$/;"	v
+thb_height	jw_sig.php	/^		$thb_height = (!is_null($params->get('thb_height', null))) ? $params->get('thb_height') : $pluginParams->get('thb_height', 160);$/;"	v
+thb_template	jw_sig.php	/^		$thb_template = 'Classic';$/;"	v
+thb_width	jw_sig.php	/^		$thb_width = (!is_null($params->get('thb_width', null))) ? $params->get('thb_width') : $pluginParams->get('thb_width', 200);$/;"	v
+thumb	jw_sig/includes/helper.php	/^				$thumb = imagecreatetruecolor($thumb_width, $thumb_height);$/;"	v
+thumbDimCalc	jw_sig/includes/helper.php	/^	public static function thumbDimCalc($width, $height, $thb_width, $thb_height, $smartResize)$/;"	f
+thumb_height	jw_sig/includes/helper.php	/^						$thumb_height = $thb_height;$/;"	v
+thumb_height	jw_sig/includes/helper.php	/^						$thumb_height = $thb_width * $height \/ $width;$/;"	v
+thumb_height	jw_sig/includes/helper.php	/^				$thumb_height = $thb_height;$/;"	v
+thumb_height	jw_sig/includes/helper.php	/^				$thumb_height = $thb_width * $height \/ $width;$/;"	v
+thumb_height	jw_sig/includes/helper.php	/^				$thumb_height = $thumbnail['height'];$/;"	v
+thumb_width	jw_sig/includes/helper.php	/^						$thumb_width = $thb_height * $width \/ $height;$/;"	v
+thumb_width	jw_sig/includes/helper.php	/^						$thumb_width = $thb_width;$/;"	v
+thumb_width	jw_sig/includes/helper.php	/^				$thumb_width = $thb_height * $width \/ $height;$/;"	v
+thumb_width	jw_sig/includes/helper.php	/^				$thumb_width = $thb_width;$/;"	v
+thumb_width	jw_sig/includes/helper.php	/^				$thumb_width = $thumbnail['width'];$/;"	v
+thumbfilename	jw_sig/includes/helper.php	/^				$thumbfilename = substr($filename, 0, -3).'jpg';$/;"	v
+thumbfilename	jw_sig/includes/helper.php	/^				$thumbfilename = substr($filename, 0, -4).'jpg';$/;"	v
+thumbimage	jw_sig/includes/helper.php	/^			$thumbimage = $cacheFolderPath.DS.$prefix.$gal_id.'_'.strtolower(self::cleanThumbName($thumbfilename));$/;"	v
+thumbnail	jw_sig/includes/helper.php	/^				$thumbnail = self::thumbDimCalc($width, $height, $thb_width, $thb_height, $smartResize);$/;"	v
+thumbnail	jw_sig/includes/helper.php	/^		$thumbnail = array();$/;"	v
+transparent	jw_sig.php	/^		$transparent = $pluginLivePath.'\/includes\/images\/transparent.gif';$/;"	v
+ul	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css	/^#fancybox-buttons ul {$/;"	s
+ul	jw_sig/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css	/^#fancybox-thumbs ul {$/;"	s
+ul#sigFreeId<?php echo $gal_id; ?>	jw_sig/tmpl/Classic/default.php	/^<ul id="sigFreeId<?php echo $gal_id; ?>" class="sigFreeContainer sigFreeClassic<?php echo $extraWrapperClass; ?>">$/;"	o
+ul.sigFreeClassic	jw_sig/tmpl/Classic/css/template.css	/^div ul.sigFreeClassic {$/;"	s
+ul.sigFreeClassic	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic { margin:8px auto!important;$/;"	s
+ul.sigFreeClassic 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic { margin:8px auto!important;$/;"	s
+ul.sigFreeClassic li.sigFreeThumb 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb { float:left; background:#fff!important; margin:5px; padding:0; list-style:none!important; }$/;"	s
+ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink,$/;"	s
+ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink { color:#eee; }$/;"	s
+ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink img.sigFreeImg	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink img.sigFreeImg,$/;"	s
+ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink span.sigFreePseudoCaption 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink span.sigFreePseudoCaption { background:#000; }$/;"	s
+ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover { color:#222; text-decoration:none; }$/;"	s
+ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover { position:relative; float:left; display:block; padding:0; margin:0; border:none; }$/;"	s
+ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover img.sigFreeImg 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover img.sigFreeImg { display:block; width:100%; height:100%; padding:0; margin:0; border:none; background-repeat:no-repeat; background-position:50% 50%; }$/;"	s
+ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover span.sigFreePseudoCaption 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb a.sigFreeLink:hover span.sigFreePseudoCaption { background:#fff; }$/;"	s
+ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkOuterWrapper 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkOuterWrapper { display:block; float:left; margin:0; padding:0 5px 5px 0; background:url(..\/images\/shadowAlpha.png) no-repeat right bottom; }$/;"	s
+ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkWrapper 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic li.sigFreeThumb span.sigFreeLinkWrapper { display:block; float:left; margin:-5px 0 0 -5px; padding:4px; border:1px solid #ccc; }$/;"	s
+ul.sigFreeClassic span.sigFreePseudoCaption	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic span.sigFreePseudoCaption,ul.sigFreeClassic span.sigFreeCaption { display:block; position:absolute; bottom:0; left:0; right:0; text-align:center; padding:2px 4px; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; }$/;"	s
+ul.sigFreeClassic span.sigFreePseudoCaption 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic span.sigFreePseudoCaption { opacity:0.7; -moz-opacity:0.7; }$/;"	s
+ul.sigFreeClassic span.sigFreePseudoCaption b 	jw_sig/tmpl/Classic/css/template.css	/^ul.sigFreeClassic span.sigFreePseudoCaption b { visibility:hidden; }$/;"	s
+ul.sigFreeClassic.singleThumbGallery	jw_sig/tmpl/Classic/css/template.css	/^	ul.sigFreeClassic.singleThumbGallery { margin:0!important; padding:8px 0!important; list-style:none!important; float:left; }$/;"	s
+ul.sigFreeClassic.singleThumbGallery 	jw_sig/tmpl/Classic/css/template.css	/^	ul.sigFreeClassic.singleThumbGallery { margin:0!important; padding:8px 0!important; list-style:none!important; float:left; }$/;"	s
+vertical-align: top	jw_sig/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css	/^	vertical-align: top;$/;"	s
+websiteURL	jw_sig.php	/^					$websiteURL = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != "off") ? "https:\/\/".$_SERVER['HTTP_HOST'] : "http:\/\/".$_SERVER['HTTP_HOST'];$/;"	v
+window.onload	jw_sig/includes/js/behaviour.js	/^			window.onload = function() {$/;"	f
