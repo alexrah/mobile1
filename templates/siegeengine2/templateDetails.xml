@@ -13,6 +13,7 @@
 
 	<files>
         <filename>index.php</filename>
+        <filename>phpinfo.php</filename>
 		<filename>framework.php</filename>
         <filename>templateDetails.xml</filename>
 		<folder>css</folder>

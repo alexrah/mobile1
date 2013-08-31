@@ -1,16 +1,16 @@
 <?php
 /**
- * Articles Newsflash Advanced
+ * @package     Joomla.Site
+ * @subpackage  mod_articles_news
  *
- * @author    TemplateMonster http://www.templatemonster.com
- * @copyright Copyright (C) 2012 - 2013 Jetimpex, Inc.
- * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 
- * Parts of this software are based on Articles Newsflash standard module
- * 
-*/
+ * @copyright   Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
 defined('_JEXEC') or die;
-	$item_heading = $params->get('item_heading', 'h4');
-	$item_images = json_decode($item->images);
+$item_heading = $params->get('item_heading', 'h4');
+$item_images = json_decode($item->images);
+
 ?>
 
 <!-- Intro Image -->
@@ -29,6 +29,7 @@ defined('_JEXEC') or die;
 <?php endif; ?>
 
 <div class="item_content">
+
 	<!-- Item title -->
 	<?php if ($params->get('item_title')) : ?>
 		<<?php echo $item_heading; ?> class="item_title item_title__<?php echo $params->get('moduleclass_sfx'); ?>">
@@ -45,15 +46,9 @@ defined('_JEXEC') or die;
 		echo $item->afterDisplayTitle;
 	endif; ?>
 
-	<?php if ($params->get('show_tags', 1) && !empty($item->tags)) : ?>
-		<?php $item->tagLayout = new JLayoutFile('joomla.content.tags'); ?>
-
-		<?php echo $item->tagLayout->render($item->tags->itemTags); ?>
-	<?php endif; ?>
-
 	<?php if ($params->get('published')) : ?>
 		<div class="item_published">
-			<?php echo JHtml::_('date', $item->publish_up, JText::_('DATE_FORMAT_LC1')); ?>
+			<?php echo JHtml::_('date', $item->publish_up, JText::_('DATE_FORMAT_TPL1')); ?>
 		</div>
 	<?php endif; ?>
 
@@ -61,7 +56,7 @@ defined('_JEXEC') or die;
 		<div class="item_createdby">
 			<?php $author = $item->author; ?>
 			<?php $author = ($item->created_by_alias ? $item->created_by_alias : $author); ?>
-				<?php echo JText::sprintf('MOD_ARTICLES_NEWS_ADV_BY', $author); ?>
+				<?php echo JText::sprintf('TPL_BY', $author); ?>
 		</div>
 	<?php endif; ?>
 
@@ -72,12 +67,15 @@ defined('_JEXEC') or die;
 
 	<!-- Read More link -->
 	<?php if (isset($item->link) && $item->readmore != 0 && $params->get('readmore')) :
-		$readMoreText = JText::_('MOD_ARTICLES_NEWS_READMORE');
+		$readMoreText = JText::_('TPL_COM_CONTENT_READ_MORE');
 			if ($item->alternative_readmore){
 				$readMoreText = $item->alternative_readmore;
 			}
 		echo '<a class="btn btn-info readmore" href="'.$item->link.'"><span>'. $readMoreText .'</span></a>';
 	endif; ?>
+
+
 </div>
 
 <div class="clearfix"></div>
+

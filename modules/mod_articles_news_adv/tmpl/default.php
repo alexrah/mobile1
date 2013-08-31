@@ -1,13 +1,11 @@
 <?php
 /**
- * Articles Newsflash Advanced
+ * @package     Joomla.Site
+ * @subpackage  mod_articles_news
  *
- * @author    TemplateMonster http://www.templatemonster.com
- * @copyright Copyright (C) 2012 - 2013 Jetimpex, Inc.
- * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 
- * Parts of this software are based on Articles Newsflash standard module
- * 
-*/
+ * @copyright   Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
 defined('_JEXEC') or die;
 ?>

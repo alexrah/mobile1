@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension
 	type="module"
-	version="3.1.0"
+	version="3.0"
 	client="site"
 	method="upgrade">
 	<name>mod_articles_news_adv</name>
 	<author>Joomla! Project</author>
-	<creationDate>April 2013</creationDate>
-	<copyright>Copyright (c) 2012-20013 by TemplateMonster - www.templatemonster.com</copyright>
-	<license>Licensed under the GNU/GPLv2:  http://www.opensource.org/licenses/mit-license.php</license>
-	<authorEmail></authorEmail>
-	<authorUrl>www.templatemonster.com</authorUrl>
-	<version>1.4.5</version>
+	<creationDate>July 2006</creationDate>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.4.2</version>
 	<description>MOD_ARTICLES_NEWS_ADV_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_articles_news_adv">mod_articles_news_adv.php</filename>
@@ -24,9 +24,6 @@
 		<language tag="en-GB">language/en-GB/en-GB.mod_articles_news_adv.ini</language>
 		<language tag="en-GB">language/en-GB/en-GB.mod_articles_news_adv.sys.ini</language>
 	</languages>
-	<updateservers>
-  	<server type="extension" priority="1" name="Articles Newsflash (Advanced) module Updates"><![CDATA[http://joomlacode.org/gf/project/tm_art_news_adv/scmsvn/?action=browse&path=%2F%2Acheckout%2A%2Ftrunk%2Fextension.xml]]></server>
-	</updateservers>
 	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_ARTICLES_NEWSFLASH" />
 	<config>
 		<fields name="params">
@@ -66,9 +63,10 @@
 				<field
 					name="columns"
 					type="list"
-					default="1"
+					default="0"
 					label="MOD_ARTICLES_NEWS_ADV_FIELD_COLUMNS_LABEL"
 					description="MOD_ARTICLES_NEWS_ADV_FIELD_COLUMNS_DESC">
+					<option	value="0">0</option>
 					<option	value="1">1</option>
 					<option	value="2">2</option>
 					<option	value="3">3</option>
@@ -202,17 +200,6 @@
 						value="h5">JH5</option>
 					<option
 						value="h6">JH6</option>
-				</field>
-				
-				<field name="show_tags" type="radio"
-					class="btn-group"
-					default="0"
-					label="MOD_ARTICLES_NEWS_ADV_FIELD_SHOW_TAGS_LABEL"
-					description="MOD_ARTICLES_NEWS_ADV_FIELD_SHOW_TAGS_DESC"
-					labelclass="control-label"
-				>
-					<option value="0">JHIDE</option>
-					<option value="1">JSHOW</option>
 				</field>
 
 				<field
