@@ -164,6 +164,7 @@ class SimpleImageGalleryHelper {
 			// Assemble the image elements
 			$gallery[$key]->filename = $filename;
 			$gallery[$key]->sourceImageFilePath = $siteUrl.$srcimgfolder.'/'.self::replaceWhiteSpace($filename);
+			// $gallery[$key]->sourceImageFilePath = $siteUrl.$srcimgfolder.'/BIG/'.self::replaceWhiteSpace($filename);
 			$gallery[$key]->thumbImageFilePath = $siteUrl.'cache/jw_sig/'.$prefix.$gal_id.'_'.strtolower(self::cleanThumbName($thumbfilename));
 			$gallery[$key]->width = $thb_width;
 			$gallery[$key]->height = $thb_height;
