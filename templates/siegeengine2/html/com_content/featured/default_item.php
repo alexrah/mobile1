@@ -20,18 +20,7 @@ $info    = $this->item->params->get('info_block_position', 0);
 <?php endif; ?>
 <article>
 	<?php if ($params->get('show_print_icon') || $params->get('show_email_icon') || $canEdit) : ?>
-			<ul class="actions">
-				<?php if ($params->get('show_print_icon')) : ?>
-					<li class="print-icon"> <?php echo JHtml::_('icon.print_popup',  $this->item, $params); ?> </li>
-				<?php endif; ?>
-				<?php if ($params->get('show_email_icon')) : ?>
-					<li class="email-icon"> <?php echo JHtml::_('icon.email',  $this->item, $params); ?> </li>
-				<?php endif; ?>
-				<?php if ($canEdit) : ?>
-					<li class="edit-icon"> <?php echo JHtml::_('icon.edit', $this->item, $params); ?> </li>
-				<?php endif; ?>
-			</ul>
-	<?php endif; ?>
+		<?php endif; ?>
 
 	<?php  if (isset($images->image_intro) and !empty($images->image_intro)) : ?>
 	<?php $imgfloat = (empty($images->float_intro)) ? $params->get('float_intro') : $images->float_intro; ?>
@@ -46,8 +35,6 @@ $info    = $this->item->params->get('info_block_position', 0);
 	<?php if ($params->get('show_title')) : ?>
 	<header>
 		<h1>
-			<?php if ($params->get('link_titles') && $params->get('access-view')) : ?><a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid)); ?>" title="<?php echo $this->escape($this->item->title); ?>"><?php echo $this->escape($this->item->title); ?></a>
-			<?php else : ?><?php echo $this->escape($this->item->title); ?><?php endif; ?>
 		</h1>
 	</header>
 	<?php endif; ?>
@@ -62,57 +49,6 @@ $info    = $this->item->params->get('info_block_position', 0);
 
 	<div class="article-body">
 		<?php echo $this->item->introtext; ?>
-		<?php if ($useDefList AND ($info == 1 OR $info == 2)) : ?>
-			<footer>
-				<h1><?php  echo JText::_('COM_CONTENT_ARTICLE_INFO'); ?></h1>
-				<?php if ($info == 1): ?>
-					<ul>
-					<?php if ($params->get('show_parent_category') AND !empty($this->item->parent_slug)) : ?>
-							<li class="parent-category-name">
-								<?php	$title = $this->escape($this->item->parent_title);
-								$url = '<a href="'.JRoute::_(ContentHelperRoute::getCategoryRoute($this->item->parent_slug)).'">'.$title.'</a>';?>
-								<?php if ($params->get('link_parent_category') and $this->item->parent_slug) : ?>
-									<?php echo JText::sprintf('COM_CONTENT_PARENT', $url); ?>
-								<?php else : ?>
-									<?php echo JText::sprintf('COM_CONTENT_PARENT', $title); ?>
-								<?php endif; ?>
-							</li>
-					<?php endif; ?>
-					<?php if ($params->get('show_category')) : ?>
-							<li class="category-name">
-								<?php 	$title = $this->escape($this->item->category_title);
-								$url = '<a href="'.JRoute::_(ContentHelperRoute::getCategoryRoute($this->item->catslug)).'">'.$title.'</a>';?>
-								<?php if ($params->get('link_category') and $this->item->catslug) : ?>
-									<?php echo JText::sprintf('COM_CONTENT_CATEGORY', $url); ?>
-								<?php else : ?>
-									<?php echo JText::sprintf('COM_CONTENT_CATEGORY', $title); ?>
-								<?php endif; ?>
-							</li>
-					<?php endif; ?>
-					<?php if ($params->get('show_publish_date')) : ?>
-							<li class="published">
-								<?php echo JText::sprintf('COM_CONTENT_PUBLISHED_DATE_ON', JHtml::_('date', $this->item->publish_up, JText::_('DATE_FORMAT_LC3'))); ?>
-							</li>
-					<?php endif; ?>
-				<?php endif; ?>
-				<?php if ($params->get('show_create_date')) : ?>
-						<li class="created">
-							<?php echo JText::sprintf('COM_CONTENT_CREATED_DATE_ON', JHtml::_('date', $this->item->modified, JText::_('DATE_FORMAT_LC3'))); ?>
-						</li>
-				<?php endif; ?>
-				<?php if ($params->get('show_modify_date')) : ?>
-						<li class="modified">
-							<?php echo JText::sprintf('COM_CONTENT_LAST_UPDATED', JHtml::_('date', $this->item->modified, JText::_('DATE_FORMAT_LC3'))); ?>
-						</li>
-				<?php endif; ?>
-				<?php if ($params->get('show_hits')) : ?>
-						<li class="hits">
-							<?php echo JText::sprintf('COM_CONTENT_ARTICLE_HITS', $this->item->hits); ?>
-						</li>
-					<ul>
-				<?php endif; ?>
-			</footer>
-		<?php endif; ?>
 		<?php if ($params->get('show_readmore') && $this->item->readmore) :
 		if ($params->get('access-view')) :
 			$link = JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid));

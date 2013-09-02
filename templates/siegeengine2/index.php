@@ -16,11 +16,6 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/normalize.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/foundation.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/siegeengine.css" />
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/touch.gallery.css" />
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/template.css" />
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/default.css" />
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/responsive.css" />
-
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/custom.modernizr.js"></script>
 
 <script src="http://cufon.shoqolate.com/js/cufon-yui.js" type="text/javascript"></script>
@@ -81,9 +76,6 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     			<jdoc:include type="component" />
             <?php if ($this->countModules( 'below-content' )) : ?>
                 <section class="below-content">
-
-
-      
                     <!--below-content-->
                     <jdoc:include type="modules" name="below-content" style="siegeEngine" />
                 </section>
@@ -177,12 +169,6 @@ g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js
 s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 <?php endif; ?>
-<?php
-   $doc->addScript($this->baseurl.'/templates/'.$this->template.'/js/jquery.js');
-   $doc->addScript($this->baseurl.'/templates/'.$this->template.'/js/jquery.easing.1.3.js');
-   $doc->addScript($this->baseurl.'/templates/'.$this->template.'/js/jquery.isotope.min.js');
-   $doc->addScript($this->baseurl.'/templates/'.$this->template.'/js/touch.gallery.js');
-?>
 <noscript>JavaScript is unavailable or disabled; so you are probably going to miss out on a few things. Everything should still work, but with a little less pzazz!</noscript>
 
 </body>

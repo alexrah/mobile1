@@ -126,7 +126,7 @@ class plgContentJw_sig extends JPlugin {
 
 		$pluginParams = class_exists('JParameter') ? new JParameter($plugin->params) : new JRegistry($plugin->params);
 
-		$galleries_rootfolder = ($params->get('galleries_rootfolder')) ? $params->get('galleries_rootfolder') : $pluginParams->get('galleries_rootfolder' );
+		$galleries_rootfolder = ($params->get('galleries_rootfolder')) ? $params->get('galleries_rootfolder') : $pluginParams->get('galleries_rootfolder', $defaultImagePath);
 		$popup_engine = 'jquery_fancybox';
 		$jQueryHandling = $pluginParams->get('jQueryHandling', '1.8');
 		$thb_template = 'Classic';

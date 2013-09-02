@@ -20,7 +20,7 @@ class JConfig {
 	public $live_site = '';
 	public $secret = '63tNT3lrfrrLZFXU';
 	public $gzip = '0';
-	public $error_reporting = 'default';
+	public $error_reporting = 'none';
 	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '';
 	public $ftp_port = '';
@@ -54,7 +54,6 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $log_path = 'C:\\xampp\\htdocs\\Joomla_mobile/logs';
-	// public $tmp_path = 'C:\\xampp\\htdocs\\Joomla_mobile/tmp';
 	public $tmp_path = '/Applications/XAMPP/xamppfiles/temp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
