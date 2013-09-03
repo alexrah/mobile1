@@ -5,7 +5,7 @@ class JConfig {
 	public $display_offline_message = '1';
 	public $offline_image = '';
 	public $sitename = 'mobile';
-	public $editor = 'tinymce';
+	public $editor = 'none';
 	public $captcha = '0';
 	public $list_limit = '20';
 	public $access = '1';
@@ -20,14 +20,14 @@ class JConfig {
 	public $live_site = '';
 	public $secret = '63tNT3lrfrrLZFXU';
 	public $gzip = '0';
-	public $error_reporting = 'default';
-	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&amp;keyref=Help{major}{minor}:{keyref}';
+	public $error_reporting = 'none';
+	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '';
 	public $ftp_port = '';
 	public $ftp_user = '';
 	public $ftp_pass = '';
 	public $ftp_root = '';
-	public $ftp_enable = '';
+	public $ftp_enable = '0';
 	public $offset = 'UTC';
 	public $mailer = 'mail';
 	public $mailfrom = 'alexrah@gmail.com';
@@ -40,7 +40,7 @@ class JConfig {
 	public $smtpsecure = 'none';
 	public $smtpport = '25';
 	public $caching = '0';
-	public $cache_handler = 'file';
+	public $cache_handler = 'cachelite';
 	public $cachetime = '15';
 	public $MetaDesc = '';
 	public $MetaKeys = '';
@@ -54,7 +54,13 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $log_path = 'C:\\xampp\\htdocs\\Joomla_mobile/logs';
-	public $tmp_path = 'C:\\xampp\\htdocs\\Joomla_mobile/tmp';
+	public $tmp_path = '/Applications/XAMPP/xamppfiles/temp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
+	public $MetaRights = '';
+	public $sitename_pagetitles = '0';
+	public $force_ssl = '0';
+	public $feed_email = 'author';
+	public $cookie_domain = '';
+	public $cookie_path = '';
 }

@@ -5,7 +5,7 @@ class JConfig {
 	public $display_offline_message = '1';
 	public $offline_image = '';
 	public $sitename = 'mobile';
-	public $editor = 'none';
+	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
 	public $access = '1';
@@ -40,7 +40,7 @@ class JConfig {
 	public $smtpsecure = 'none';
 	public $smtpport = '25';
 	public $caching = '0';
-	public $cache_handler = 'cachelite';
+	public $cache_handler = 'file';
 	public $cachetime = '15';
 	public $MetaDesc = '';
 	public $MetaKeys = '';
@@ -54,7 +54,7 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $log_path = 'C:\\xampp\\htdocs\\Joomla_mobile/logs';
-	public $tmp_path = '/Applications/XAMPP/xamppfiles/temp';
+	public $tmp_path = 'C:\\xampp\\htdocs\\Joomla_mobile/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $MetaRights = '';
