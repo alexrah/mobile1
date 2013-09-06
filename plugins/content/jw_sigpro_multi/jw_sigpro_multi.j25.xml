@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>Content - Simple Image Gallery Multi Pro (by Teddynet)</name>
+	<author>Teddynet</author>
+	<authorEmail>please-use-the-contact-form@teddynet.net</authorEmail>
+	<authorUrl>www.teddynet</authorUrl>
+	<creationDate>September 4th, 2013</creationDate>
+	<copyright>Copyright (c) 2013 Teddynet</copyright>
+	<license>http://www.teddynet.net/license</license>
+	<version>1.0.0</version>
+	<description>JW_SIGP_XML_DESC</description>
+	<files>
+		<filename plugin="jw_sigpro_multi">jw_sigpro_multi.php</filename>
+		<folder>jw_sigpro_multi</folder>
+	</files>
+</extension>
