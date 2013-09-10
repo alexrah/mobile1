@@ -17,9 +17,10 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/foundation.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/siegeengine.css" />
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/custom.modernizr.js"></script>
+<link href="video-js/video-js.css" rel="stylesheet">
 
-<script src="http://cufon.shoqolate.com/js/cufon-yui.js" type="text/javascript"></script>
-<script src="templates/siegeengine2/js/impact.cufonfonts.js" type="text/javascript"></script>
+<!-- <script src="http://cufon.shoqolate.com/js/cufon-yui.js" type="text/javascript"></script> -->
+<!-- <script src="templates/siegeengine2/js/impact.cufonfonts.js" type="text/javascript"></script> -->
 <script type="text/javascript">
 // Cufon.replace('p', { fontFamily: 'Impact', hover: true }); 
 // Cufon.replace('li', { fontFamily: 'Impact', hover: true }); 
@@ -160,6 +161,11 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
   <script>
     $(document).foundation();
   </script>
+
+<!-- <script src="../../video-js/video.js"></script> -->
+<script type="text/javascript" src="<?php echo $this->baseurl ?>/video-js/video.js"></script>
+
+
   <?php if ($analytics != "UA-XXXXX-X") : ?>
 <!-- http://mths.be/aab -->
 <script>
