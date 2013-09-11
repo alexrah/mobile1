@@ -35,7 +35,7 @@ if(!defined('PE_FANCYBOX_LOADED')){
 				//padding: 0,
 				//fitToView	: false,
 				helpers		: {
-					title	: { type : \'inside\' }, // options: over, inside, outside, float
+					title	: { type : \'over\' }, // options: over, inside, outside, float
 					buttons	: {}
 				},
 				afterLoad : function() {
