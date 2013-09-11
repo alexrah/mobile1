@@ -18,7 +18,7 @@ src: url('../fonts/Impact.eot?#iefix') format('embedded-opentype'),
 body {
 	 /* font-family: 'Source Sans Pro', sans-serif; */
  
- font-family: sans-serif; 
+ font-family: impact; 
 	/* color:#222222; */
 }
 h1, h2, h3, h4, h5, h6 {
@@ -31,8 +31,7 @@ p {
   font-family: 'Source Sans Pro'
 }
 a, .breadcrumbs > *, .breadcrumbs > * a, .breadcrumbs > * span {
-/* color:#222222; */
-color:#fff;
+color:#222222;
 }
 a:hover,.breadcrumbs > * a:hover {
 color:#E67E22;	
