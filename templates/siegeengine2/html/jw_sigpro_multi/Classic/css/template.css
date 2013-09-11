@@ -46,7 +46,8 @@ ul.sigFreeClassic.singleThumbGallery {
 ul.sigFreeClassic li.sigFreeThumb {
 	float:left;
 	background:#fff!important;
-	margin:5px;
+	/* margin:5px; */
+	margin:-1px;
 	padding:0;
 	list-style:none!important
 }
