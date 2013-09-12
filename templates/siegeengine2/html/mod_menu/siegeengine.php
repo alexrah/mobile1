@@ -16,6 +16,16 @@ defined('_JEXEC') or die;
     <!-- Title Area -->
 
     <li class="right language"><a href="#"><span>Ita/Eng</span></a></li>
+   <!-- AddThis Follow BEGIN -->
+<div class="right addthis_toolbox addthis_default_style" style="margin-top:10px;">
+<a class="addthis_button_facebook_follow" addthis:userid="YOUR-PROFILE"></a>
+<a class="addthis_button_twitter_follow" addthis:userid="YOUR-USERNAME"></a>
+<a class="addthis_button_instagram_follow" addthis:userid="ciao"></a>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52317c2c571a9a95"></script>
+<!-- AddThis Follow END -->
+ 
+    </li>
 			    <!-- <li class="name">\
  -->
     <!-- \
