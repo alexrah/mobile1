@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension version="1.0.0" type="module" group="content" method="upgrade">
+    <name>AddThis Follow</name>
+    <author>AddThis, LLC</author>
+    <copyright>Copyright (C) 2013 AddThis, LLC</copyright>
+    <license>GPL 3.0</license>
+    <authorUrl>www.addthis.com</authorUrl>
+    <version>1.0.0</version>
+    <creationDate>25-Feb-2013</creationDate>
+    <description>
+        <![CDATA[Connect fans and followers with your profiles on top social services. Measure aggregate and breakdown of counts across services. Understand what content drives the most followers]]>
+    </description>
+    <files>
+		<filename>mod_addthis_follow.xml</filename>
+        <filename module="mod_addthis_follow">mod_addthis_follow.php</filename>
+    </files>
+    <form>
+    <config>
+    <fields name="params">
+		<fieldset name="atf_profile" label="Profile">
+			<field name="atf_profile_id" type="text" default="Your Profile ID" label="AddThis Profile ID" description="Profile ID under your AddThis account"/>
+		</fieldset>
+		<fieldset name="atf_button_style" label="Button Style">
+        	<field name="atf_header" type="text" default="Follow Us" label="Header" description="Header"/>
+	        <field name="atf_design" type="list" default="horizontal_large" label="Design"  description="Language in which the button and menu has to be shown">
+	            <option value="horizontal_large">Horizontal Large</option>
+	            <option value="horizontal_small">Horizontal Small</option>
+	            <option value="vertical_large">Vertical Large</option>
+	            <option value="vertical_small">Vertical Small</option>        	
+			</field>
+		</fieldset>			
+	<fieldset name="atf_username" label="Services">
+	        <field name="atf_facebook" type="text" default="YOUR-PROFILE" label="Facebook" description="http://facebook.com/YOUR-PROFILE"/>
+	        <field name="atf_twitter" type="text" default="YOUR-PROFILE" label="Twitter" description="http://twitter.com/YOUR-PROFILE"/>
+	        <field name="atf_linkedin" type="text" default="" label="Linkedin" description="http://linkedin.com/in/(?)"/>
+	        <field name="atf_linkedin_comp" type="text" default="" label="Linkedin Company" description="http://linkedin.com/company/(?)"/>
+	        <field name="atf_google" type="text" default="" label="Google Plus" description="http://plus.google.com/(?)"/>
+	        <field name="atf_youtube" type="text" default="" label="Youtube" description="http://youtube.com/user/(?)"/>
+	        <field name="atf_flickr" type="text" default="" label="Flickr" description="http://flickr.com/photos/(?)"/>
+	        <field name="atf_vimeo" type="text" default="" label="Vimeo" description="http://vimeo.com/(?)"/>
+	        <field name="atf_pinterest" type="text" default="" label="Pinterest" description="http://pinterest.com/(?)"/>
+	        <field name="atf_instagram" type="text" default="" label="Instagram" description="http://instagram.com/(?)"/>
+	        <field name="atf_foursquare" type="text" default="" label="Foursquare" description="http://foursquare.com/(?)"/>
+	        <field name="atf_tumblr" type="text" default="" label="Tumblr" description="http://(?).tumblr.com"/>
+	        <field name="atf_rss" type="text" default="" label="RSS" description="http://(?)"/>
+    </fieldset> 
+     </fields>
+    </config>
+    </form>
+</extension>
