@@ -233,16 +233,16 @@
             url = $link.attr('href');
 
         if (self.settings.mobile_show_parent_link && url && url.length > 1) {
-          var $titleLi = $('<li class="title back js-generated"><h6><a href="#"></a></h6></li><li><a class="parent-link js-generated" href="' + url + '">' + $link.text() +'</a></li>');
+          var $titleLi = $('<li class="title back js-generated"><h7><a href="#"></a></h7></li><li><a class="parent-link js-generated" href="' + url + '">' + $link.text() +'</a></li>');
         } else {
-          var $titleLi = $('<li class="title back js-generated"><h6><a href="#"></a></h6></li>');
+          var $titleLi = $('<li class="title back js-generated"><h7><a href="#"></a></h7></li>');
         }
 
         // Copy link to subnav
         if (self.settings.custom_back_text == true) {
-          $titleLi.find('h6>a').html('&laquo; ' + self.settings.back_text);
+          $titleLi.find('h7>a').html('&laquo; ' + self.settings.back_text);
         } else {
-          $titleLi.find('h6>a').html('&laquo; ' + $link.html());
+          $titleLi.find('h7>a').html('&laquo; ' + $link.html());
         }
         $dropdown.prepend($titleLi);
       });

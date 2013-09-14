@@ -146,9 +146,9 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
   
   <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/foundation.section.js"></script>
   
+  -->
   <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js//foundation.topbar.js"></script>
   
-  -->
   <!-- Load respond.js for shit browsers -->
   
   <!--[if lte IE 8]>  <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/respond.js"></script> <![endif]-->
@@ -173,20 +173,20 @@ s.parentNode.insertBefore(g,s)}(document,"script"));
 
 <!-- AddThis Smart Layers BEGIN -->
 <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52317c2c571a9a95"></script>
+<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52317c2c571a9a95"></script> -->
 <!-- <script type="text/javascript" src="https://www.teddybackup.com/cote/addthis/addthis_widget.js"></script> -->
-<script type="text/javascript">
-  addthis.layers({
-    'theme' : 'transparent', 
-    'follow' : {
-      'services' : [
-        {'service': 'facebook', 'id': 'sassyrisiko'},
-        {'service': 'twitter', 'id': 'alexrah'},
-        {'service': 'instagram', 'id': 'alexrah'}
-      ]
-    }   
-  });
-</script>
+<!-- <script type="text/javascript"> -->
+<!--   addthis.layers({ -->
+<!--     'theme' : 'transparent',  -->
+<!--     'follow' : { -->
+<!--       'services' : [ -->
+<!--         {'service': 'facebook', 'id': 'sassyrisiko'}, -->
+<!--         {'service': 'twitter', 'id': 'alexrah'}, -->
+<!--         {'service': 'instagram', 'id': 'alexrah'} -->
+<!--       ] -->
+<!--     }    -->
+<!--   }); -->
+<!-- </script> -->
 <!-- AddThis Smart Layers END -->
 
 <noscript>JavaScript is unavailable or disabled; so you are probably going to miss out on a few things. Everything should still work, but with a little less pzazz!</noscript>

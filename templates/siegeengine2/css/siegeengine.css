@@ -82,6 +82,11 @@ ul, ol {
   /* margin-left: 15px; */
   padding: 0 15px
 }
+.top-bar-section li.language-text a:not(.button)  {
+  background: white;
+  padding: 13px 15px;
+  line-height: 45px;
+}
 .top-bar-section ul li.active > a {
 background: #4e6d8d;
 }

@@ -44,7 +44,7 @@ defined('_JEXEC') or die;
 
    <ul class="top-bar-section">
 
- <li class="title-area right language-wide"><a href="#"><span>Ita/Eng</span></a></li>
+ <li class="title-area right language-wide language-text"><a href="#"><span>Ita/Eng</span></a></li>
 
    <!-- AddThis Follow BEGIN -->
 <div class="right language-wide addthis_toolbox addthis_default_style" style="margin-top:6px; margin-right: -30px;">
