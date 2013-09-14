@@ -3,3 +3,5 @@ cache/
 videos/*.mp4
 videos/*.m4v
 videos/*.webm
+tags
+cscope.out
