@@ -105,6 +105,10 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
             <jdoc:include type="modules" name="footer" style="siegeEngine" />
         </footer>
     <?php endif; ?>
+
+<!-- LOAD ISOTOPE JQUERY PLUGIN -->
+<!-- <script type="text/javascript" src="<?php echo $this->baseurl ?>/modules/mod_isotope/js/jquery.isotope.min.js"></script> -->
+
     <?php if ($jQueryOff == 0) : ?>
 		<?php if ($jQuery == 1) : ?>
             <script>
@@ -116,6 +120,23 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
           <script src=<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery.js></script>
           <?php endif; ?>
   <?php endif; ?>
+
+ <!-- LOAD ISOTOPE JQUERY PLUGIN -->
+<script type="text/javascript" src="<?php echo $this->baseurl ?>/isotope/jquery.isotope.min.js"></script>
+
+  <script>
+    $(function(){
+      
+           var $container = $('#container');
+                
+                $container.isotope({
+                         itemSelector: '.element'
+                                });
+                
+              });
+  </script>
+
+
   
   <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/foundation.min.js"></script>
   <!--
@@ -157,9 +178,11 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     $(document).foundation();
   </script>
 
-<!-- <script src="../../video-js/video.js"></script> -->
+<!-- LOAD VIDEO.JS HTML5 VIDEO PLAYER PLUGIN -->
 <script type="text/javascript" src="<?php echo $this->baseurl ?>/video-js/video.js"></script>
 
+<!-- LOAD ISOTOPE JQUERY PLUGIN -->
+<!-- <script type="text/javascript" src="<?php echo $this->baseurl ?>/modules/mod_isotope/js/jquery.isotope.min.js"></script> -->
 
   <?php if ($analytics != "UA-XXXXX-X") : ?>
 <!-- http://mths.be/aab -->
@@ -171,7 +194,6 @@ s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 <?php endif; ?>
 
-<!-- AddThis Smart Layers BEGIN -->
 <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
 <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52317c2c571a9a95"></script> -->
 <!-- <script type="text/javascript" src="https://www.teddybackup.com/cote/addthis/addthis_widget.js"></script> -->
