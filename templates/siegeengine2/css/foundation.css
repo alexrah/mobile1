@@ -2945,7 +2945,7 @@ label.error {
     width: 100%;
     color: #222222;
     padding: 0px 0 0px 0;
-    padding-left: 15px;
+    padding-left: 5px;
     /* font-size: 0.8125em; */
     font-weight: bold;
     background: #222222; }
@@ -3093,13 +3093,13 @@ label.error {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li a:not(.button) {
-      padding: 0 15px;
+      /* padding: 0 15px; */
       line-height: 45px;
       background: #111111; }
       .top-bar-section li a:not(.button).hover {
         background: black; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 35px !important; }
+      padding-right: 5px !important; }
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: block;
