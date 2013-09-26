@@ -59,10 +59,10 @@ p {
   font-family: 'Source Sans Pro'
 }
 a, .breadcrumbs > *, .breadcrumbs > * a, .breadcrumbs > * span {
-color:#222222;
+color:#010101;
 }
 a:hover,.breadcrumbs > * a:hover {
-color:#E67E22;	
+color:#9a9a9a;	
 }
 .breadcrumbs > *:before {
 content: "/";
@@ -82,7 +82,7 @@ ul, ol {
 
 .language-wide {   /* CONTROL ITA/ENG BUTTON  */
 	 /* background: #34495e;	 */
-   padding: 8px 15px;
+   padding: 8px 5px;
    text-transform: uppercase;
    display: none;
 }
@@ -106,7 +106,7 @@ ul, ol {
 	  
 .top-bar-section li a:not(.button), .top-bar-section ul {
 	background:white;
-  color: #222222;
+  color: #333;
   /* margin-left: 15px; */
   /* padding: 0 15px */
   padding-right: 5px;
@@ -120,8 +120,9 @@ ul, ol {
 
 .top-bar-section li.language-text a:not(.button)  {
   background: white;
-  padding: 13px 15px;
+  padding: 9px 5px;
   line-height: 45px;
+   margin-right: 10px;   /* ADDED TO FIX ITA/ENG MARGIN AFTER CHANGING FONT AND SPACING */ 
 }
 .top-bar-section .dropdown li a:not(.button)  {
   padding: 2px 5px;
@@ -418,28 +419,139 @@ max-width: none;
 .item-101{
   display: none;
 }
-/* Gradient color1 - color2 - color1 */
+/* HORIZONTAL RULER ON HEADER AND FOOTER */
 		
 hr.style-one {
     border: 0;
     height: 3px;
     background: #333;
-    background-image: -webkit-linear-gradient(left, #333, #333, #333); 
-    background-image:    -moz-linear-gradient(left, #333, #333, #333); 
-    background-image:     -ms-linear-gradient(left, #333, #333, #333); 
-    background-image:      -o-linear-gradient(left, #333, #333, #333); 
+    /* background-image: -webkit-linear-gradient(left, #333, #333, #333);  */
+    /* background-image:    -moz-linear-gradient(left, #333, #333, #333);  */
+    /* background-image:     -ms-linear-gradient(left, #333, #333, #333);  */
+    /* background-image:      -o-linear-gradient(left, #333, #333, #333);  */
     margin: 0px 15px;
 }
 div.banner-logo{
-  /* margin: 20px auto; */
   text-align: center;
-  /* HAD BETTER CHANGE THE ABOVE WITH:
-   * display: block;
-   * margin-left: auto;
-   * margin-right: auto;
-   */
+  /* HAD BETTER CHANGE THE ABOVE WITH: */
+  /* margin: 20px auto; */
+   /* display: block; */
+  
 }
 div.banner-logo>a>img{
   max-width: 100%;
 }
 
+/* CONTACT PAGE CUSTOM STYLES */
+
+.contact {
+  font-weight: 100; 
+}
+
+.contact h3{
+  color: #676767;
+  font-size: 2.2em;
+  margin-bottom: -5px;
+}
+
+.contact h3#showroom{
+  margin-top: 150px;
+}
+
+.contact h1{
+  font-size: 1.1em;
+  color: #9a9a9a;
+
+}
+
+.contact h2{
+  margin-bottom: -5px;
+}
+
+@media screen and (min-width: 768px){
+.contact h3{
+  margin-bottom: -10px;
+}
+.contact h2{
+  margin-bottom: -10px;
+}
+.contact h1{
+  margin-bottom: -5px;
+  }
+.contact h3#showroom{ margin-top: 0px;}
+}
+
+/* CUSTOM STYLES FOR CLOUD-LIKE LINKS IN WEBPAGE */
+
+.isotope>.element>h1>a:hover{color: #9a9a9a;}
+.isotope>.element>h2>a:hover{color: #9a9a9a;}
+.isotope>.element>h3>a:hover{color: #9a9a9a;}
+.isotope>.element>h4>a:hover{color: #9a9a9a;}
+.isotope>.element>h5>a:hover{color: #9a9a9a;}
+.isotope>.element>h6>a:hover{color: #9a9a9a;}
+
+.isotope>.element {
+  text-transform: uppercase;
+  margin: 8% ;
+}
+.isotope>.element>h1>a{
+  font-size: 5em;
+  color: #343434;
+}
+.isotope>.element>h2>a{
+  font-size: 2em;
+  color: red;
+}
+.isotope>.element>h3>a{
+  font-size: 2.5em;
+  color: green;
+}
+.isotope>.element>h4>a{
+  font-size: 3.5em;
+  color: blue;
+}
+.isotope>.element>h5>a{
+ font-size: 3.5em; 
+ color: orange;
+}
+.isotope>.element>h6>a{
+  font-size: 3em;
+}
+
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+
+/* FOOTER STYLES */
+.footer{
+  margin-top: 1%;
+
+}
+.footer>p{
+  /* background-color: #333; */
+  /* margin: 0 15px 10px; */
+  /* color: grey; */
+}

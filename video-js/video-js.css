@@ -650,8 +650,10 @@ control positioning and full window mode. **
   
   /* CUSTOM MODS */
 
-margin-top: 2%;
+/* margin-top: 2%; */
+  margin-top: 15px;
 }
+@media screen and (min-width: 940px){ .video-js{ margin-top: 0px; } }
 /* @media all and () */
 
 /* Playback technology elements expand to the width/height of the containing div
