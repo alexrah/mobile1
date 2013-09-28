@@ -131,8 +131,15 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
                 
                 $container.isotope({
                          itemSelector: '.element'
+                           // layoutMode: 'fitRows' 
+                           // layoutMode: 'cellsByColumns',
+                              // // cellsByColumns: {
+                              // masonry: {
+                              //   columnWidth: 50
+                              //   rowHeight: 150
+                      //         }
+
                                 });
-                
               });
   </script>
 

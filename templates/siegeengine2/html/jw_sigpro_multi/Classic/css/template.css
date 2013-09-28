@@ -29,6 +29,7 @@ li.sigFreeClear {
 /* Container */
 ul.sigFreeClassic {
 	/* margin:8px auto!important; */
+  margin: 0 auto 0;
 	/* padding:8px 0!important; */
 	list-style:none;
 	clear:both;
