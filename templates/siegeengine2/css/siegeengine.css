@@ -484,7 +484,11 @@ div.banner-logo>a>img{
 
 /* CUSTOM STYLES FOR CLOUD-LIKE LINKS IN WEBPAGE */
 .isotope{
-  margin: 0 5% 0;
+  /* margin: 0 5% 0; */
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  position: relative;
 }
 .isotope>.element>h1>a:hover{color: #9a9a9a;}
 .isotope>.element>h2>a:hover{color: #9a9a9a;}
@@ -493,32 +497,38 @@ div.banner-logo>a>img{
 .isotope>.element>h5>a:hover{color: #9a9a9a;}
 .isotope>.element>h6>a:hover{color: #9a9a9a;}
 
+
 .isotope>.element {
   text-transform: uppercase;
   /* margin: 8% ; */
+  font-size: 1.0em;
 }
 .isotope>.element>h1>a{
-  font-size: 1em;
+  font-size: 2em;
   color: #343434;
+  margin: 0;
 }
 .isotope>.element>h2>a{
   font-size: 1em;
-  color: red;
+  color: #111111;
 }
 .isotope>.element>h3>a{
   font-size: 1.5em;
-  color: green;
+  color: #222222;
+  margin: 0;
+  padding: 0;
 }
 .isotope>.element>h4>a{
   font-size: 1.5em;
-  color: blue;
+  color: #444444;
 }
 .isotope>.element>h5>a{
  font-size: 1.5em;
- color: orange;
+ color: #666666;
 }
 .isotope>.element>h6>a{
   font-size: 2em;
+  color: #999999
 }
 
 /**** Isotope CSS3 transitions ****/
@@ -553,6 +563,7 @@ div.banner-logo>a>img{
 
 }
 .footer>p{
+  font-size: 0.8em;
   /* background-color: #333; */
   /* margin: 0 15px 10px; */
   /* color: grey; */

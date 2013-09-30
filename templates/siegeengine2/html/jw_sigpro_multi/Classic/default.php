@@ -12,7 +12,7 @@ defined('_JEXEC') or die('Restricted access');
 
 ?>
 
-<ul id="sigFreeId<?php echo $gal_id; ?>" class="sigFreeContainer sigFreeClassic<?php echo $extraWrapperClass; ?>">
+<div class="sigFreeCenterFix"><ul id="sigFreeId<?php echo $gal_id; ?>" class="sigFreeContainer sigFreeClassic<?php echo $extraWrapperClass; ?>">
 	<?php foreach($gallery as $count=>$photo): ?>
 	<li class="sigFreeThumb">
 		<span class="sigFreeLinkOuterWrapper">
@@ -26,7 +26,7 @@ defined('_JEXEC') or die('Restricted access');
 	<?php endforeach; ?>
 	<li class="sigFreeClear">&nbsp;</li>
 </ul>
-
+</div>
 <?php if($itemPrintURL): ?>
 <div class="sigFreePrintMessage">
 	<?php echo JText::_('JW_PLG_SIG_PRINT_MESSAGE'); ?>:
