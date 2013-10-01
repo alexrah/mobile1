@@ -13,6 +13,7 @@ defined('_JEXEC') or die('Restricted access');
 ?>
 
 <div class="sigFreeCenterFix"><ul id="sigFreeId<?php echo $gal_id; ?>" class="sigFreeContainer sigFreeClassic<?php echo $extraWrapperClass; ?>">
+<!-- <div class="sigFreeCenterFix"><ul class="sigFreeContainer sigFreeClassic<?php echo $extraWrapperClass; ?>"> -->
 	<?php foreach($gallery as $count=>$photo): ?>
 	<li class="sigFreeThumb">
 		<span class="sigFreeLinkOuterWrapper">

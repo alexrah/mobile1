@@ -17,8 +17,19 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/foundation.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/siegeengine.css" />
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/custom.modernizr.js"></script>
+    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/cufon-yui.js"></script>
+    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/compact-bold_700.font.js"></script>
 <link href="video-js/video-js.css" rel="stylesheet">
+<script type="text/javascript">
+// Cufon.replace('h1' 'h2' 'h3' 'h4' 'h5' 'h6'); // Works without a selector engine
+   Cufon.replace('h1');
+   Cufon.replace('h2');
+   Cufon.replace('h3');
+   Cufon.replace('h4');
+   Cufon.replace('h5');
+   Cufon.replace('h6');
 
+</script>
 
 
       <!--[if lt IE 9]>
