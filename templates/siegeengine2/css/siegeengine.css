@@ -482,6 +482,12 @@ div.banner-logo>a>img{
 .contact h3#showroom{ margin-top: 0px;}
 }
 
+@media screen and (max-width: 940px) and (min-width: 768px){
+  .contact #mail{
+    margin-left: 2%;
+  }
+}
+
 /* CUSTOM STYLES FOR CLOUD-LIKE LINKS IN WEBPAGE */
 .isotope{
   /* margin: 0 5% 0; */
