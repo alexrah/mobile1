@@ -130,10 +130,11 @@ ul, ol {
 .top-bar-section ul li.active > a {
 background: #4e6d8d;
 }
-.top-bar-section li a:not(.button):hover{
+.top-bar-section li a:not(.button):hover {
   background: #222222;
   color: white;
 }
+
 /* Buttons */
 
 .readmore {
@@ -534,7 +535,7 @@ div.banner-logo>a>img{
 }
 .isotope>.element>h6>a{
   font-size: 2em;
-  color: #999999
+  color: #333333
 }
 
 /**** Isotope CSS3 transitions ****/

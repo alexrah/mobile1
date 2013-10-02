@@ -21,13 +21,12 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/compact-bold_700.font.js"></script>
 <link href="video-js/video-js.css" rel="stylesheet">
 <script type="text/javascript">
-// Cufon.replace('h1' 'h2' 'h3' 'h4' 'h5' 'h6'); // Works without a selector engine
    Cufon.replace('h1');
-   Cufon.replace('h2');
-   Cufon.replace('h3');
-   Cufon.replace('h4');
-   Cufon.replace('h5');
-   Cufon.replace('h6');
+   Cufon.replace('h2',{ hover:true });
+   Cufon.replace('h3',{ hover:true });
+   Cufon.replace('h4',{ hover:true });
+   Cufon.replace('h5',{ hover:true });
+   Cufon.replace('h6',{ hover:true });
 
 </script>
 
