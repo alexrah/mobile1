@@ -448,7 +448,9 @@ div.banner-logo>a>img{
 .contact {
   font-weight: 100; 
 }
-
+.row.contact{
+  margin-top: 30px;
+}
 .contact h3{
   color: #676767;
   font-size: 2.2em;
@@ -468,6 +470,11 @@ div.banner-logo>a>img{
 
 .contact h2{
   margin-bottom: -5px;
+}
+@media screen and (min-width: 940px){
+  .row .contact{
+    margin-top: 0px;
+  }
 }
 
 @media screen and (min-width: 768px){
@@ -497,6 +504,14 @@ div.banner-logo>a>img{
   margin: auto;
   position: relative;
 }
+
+@media screen and (max-width: 940px){
+  .isotope{
+    margin-top: 30px;
+  }
+}
+
+
 .isotope>.element>h1>a:hover{color: #9a9a9a;}
 .isotope>.element>h2>a:hover{color: #9a9a9a;}
 .isotope>.element>h3>a:hover{color: #9a9a9a;}
