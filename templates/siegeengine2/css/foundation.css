@@ -92,7 +92,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  /* max-width: 62.5em; FULL WIDTH LAYOUT  */  
+  max-width: 62.5em;  /* FULL WIDTH LAYOUT  */  
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";

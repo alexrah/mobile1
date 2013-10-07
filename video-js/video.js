@@ -127,7 +127,13 @@ u.o.Events=u.o.Za;u.o.isSupported=u.o.isSupported;u.o.canPlaySource=u.o.lb;u.o.p
 $("videojs.CaptionsTrack",u.Sb);$("videojs.SubtitlesTrack",u.Yb);$("videojs.ChaptersTrack",u.Tb);$("videojs.autoSetup",u.cc);$("videojs.plugin",u.kd);$("videojs.createTimeRange",u.sb);})();
 // ADD CLICK TO PLAY FEATURE AS FALLBACK FOR DEVICED NOT SUPPORTING AUTOPLAY
 var autoplay_android = document.getElementById('my_video_1');
+// var autoplay_android = videojs("my_video_1");
 autoplay_android.addEventListener('click', function(){
+    if(autoplay_android.paused()){
     autoplay_android.play();
+    }
+    else {
+    autoplay_android.pause();
+    }
     }, false);
 

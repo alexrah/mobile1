@@ -56,7 +56,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	margin-bottom: 0.5em;	
-  font-family: 'Source Sans Pro'
+  /* font-family: 'Source Sans Pro'; */
+  font-family: 'gill_sansbook';
 }
 a, .breadcrumbs > *, .breadcrumbs > * a, .breadcrumbs > * span {
 color:#010101;
@@ -120,7 +121,7 @@ ul, ol {
 
 .top-bar-section li.language-text a:not(.button)  {
   background: white;
-  padding: 10px 5px;
+  padding: 9px 5px;
   line-height: 45px;
    margin-right: 10px;   /* ADDED TO FIX ITA/ENG MARGIN AFTER CHANGING FONT AND SPACING */ 
 }
@@ -440,7 +441,7 @@ div.banner-logo{
   
 }
 div.banner-logo>a>img{
-  max-width: 100%;
+  width: 250px;
 }
 
 /* CONTACT PAGE CUSTOM STYLES */
@@ -502,13 +503,21 @@ div.banner-logo>a>img{
   text-transform: uppercase;
   text-align: center;
   margin: auto;
+  margin-bottom: 30px;
   position: relative;
 }
 
 @media screen and (max-width: 940px){
   .isotope{
     margin-top: 30px;
+    /* margin-bottom: 10px; */
   }
+}
+ 
+@media screen and (max-width: 760px){
+  .isotope>.element{
+  margin: 0 0% 1% 0;
+}
 }
 
 
@@ -524,7 +533,10 @@ div.banner-logo>a>img{
   text-transform: uppercase;
   /* margin: 8% ; */
   font-size: 1.0em;
+  /* margin: 0 -2% -2% 0; */
+  margin: 0 -0.5% -3% 0;
 }
+
 .isotope>.element>h1>a{
   font-size: 2em;
   color: #343434;
@@ -590,3 +602,35 @@ div.banner-logo>a>img{
   /* margin: 0 15px 10px; */
   /* color: grey; */
 }
+
+
+/* CUSTOM CSS FOR IDENTITY */
+
+.identity p{
+ padding: 0 1%;
+ font-size: 0.9em;
+ line-height: 1.3;
+}
+
+@media screen and (max-width: 940px){
+.identity.wrapper{
+  margin: 5% auto;
+}
+.identity p{
+ margin-left: 0%;
+}
+img#identity{
+ margin: 0 auto 5%;
+}
+}
+
+
+.identity.wrapper{
+  /* margin: 5% auto; */
+}
+img#identity {
+  /* width: 100%; */
+
+  /* margin: 1% auto; */
+}
+

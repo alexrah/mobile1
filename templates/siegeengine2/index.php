@@ -232,8 +232,10 @@ $.Isotope.prototype._getCenteredMasonryColumns = function() {
     
     $container.isotope({
       itemSelector : '.element',
-      masonry : {
-        columnWidth : 120
+      masonry: {
+        // columnWidth : 120
+        columnWidth : 30
+        // rowHeight: 20
       },
       getSortData : {
         symbol : function( $elem ) {
