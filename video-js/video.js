@@ -125,15 +125,20 @@ $("videojs.Slider",u.O);$("videojs.ProgressControl",u.cb);$("videojs.SeekBar",u.
 u.S.prototype.createItems=u.S.prototype.sa;u.Da.prototype.createItems=u.Da.prototype.sa;$("videojs.SubtitlesButton",u.Ga);$("videojs.CaptionsButton",u.Ca);$("videojs.ChaptersButton",u.Da);$("videojs.MediaTechController",u.r);u.r.prototype.features=u.r.prototype.l;u.r.prototype.l.volumeControl=u.r.prototype.l.zc;u.r.prototype.l.fullscreenResize=u.r.prototype.l.Gd;u.r.prototype.l.progressEvents=u.r.prototype.l.Kd;u.r.prototype.l.timeupdateEvents=u.r.prototype.l.Pd;$("videojs.Html5",u.o);
 u.o.Events=u.o.Za;u.o.isSupported=u.o.isSupported;u.o.canPlaySource=u.o.lb;u.o.prototype.setCurrentTime=u.o.prototype.od;u.o.prototype.setVolume=u.o.prototype.td;u.o.prototype.setMuted=u.o.prototype.rd;u.o.prototype.setPreload=u.o.prototype.sd;u.o.prototype.setAutoplay=u.o.prototype.nd;u.o.prototype.setLoop=u.o.prototype.qd;$("videojs.Flash",u.f);u.f.isSupported=u.f.isSupported;u.f.canPlaySource=u.f.lb;u.f.onReady=u.f.onReady;$("videojs.TextTrack",u.X);u.X.prototype.label=u.X.prototype.label;
 $("videojs.CaptionsTrack",u.Sb);$("videojs.SubtitlesTrack",u.Yb);$("videojs.ChaptersTrack",u.Tb);$("videojs.autoSetup",u.cc);$("videojs.plugin",u.kd);$("videojs.createTimeRange",u.sb);})();
-// ADD CLICK TO PLAY FEATURE AS FALLBACK FOR DEVICED NOT SUPPORTING AUTOPLAY
-var autoplay_android = document.getElementById('my_video_1');
+
+
+
+// ADD CLICK TO PLAY FEATURE AS FALLBACK FOR DEVICES NOT SUPPORTING AUTOPLAY
+// var autoplay_android = document.getElementById('my_video_1');
 // var autoplay_android = videojs("my_video_1");
-autoplay_android.addEventListener('click', function(){
-    if(autoplay_android.paused()){
-    autoplay_android.play();
-    }
-    else {
-    autoplay_android.pause();
-    }
-    }, false);
+// $("#my_video_1").
+// autoplay_android.addEventListener('click', function(){
+//     var isPaused = autoplay_android.paused();
+//     if(isPaused){
+//     autoplay_android.play();
+//     }
+//     else {
+//     autoplay_android.pause();
+//     }
+//     }, false);
 

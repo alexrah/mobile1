@@ -18,11 +18,12 @@ defined('_JEXEC') or die;
     <li class="right language"><a href="#"><span>Ita/Eng</span></a></li>
    <!-- AddThis Follow BEGIN -->
 <div class="right language addthis_toolbox addthis_default_style" style="margin-top:9px;">
-<!-- <a class="addthis_button_facebook_follow" addthis:userid="YOUR-PROFILE"></a> -->
-<!-- <a class="addthis_button_facebook_like" fb:like:href="https://www.facebook.com/pages/COTE/140940539252548"></a> -->
 <a class="addthis_button_facebook_follow" addthis:url="https://www.facebook.com/pages/COTE/140940539252548"></a>
 <a class="addthis_button_twitter_follow" addthis:userid="cote_italia"></a>
-<a class="addthis_button_instagram_follow" addthis:userid="cote_italia"></a>
+<a class="addthis_button_instagram_follow" addthis:userid="cote_official"></a>
+<a class="addthis_button_pinterest_follow" addthis:userid="coteofficial"></a>
+<a class="addthis_button_tumblr_follow" addthis:userid="cote-official"></a>
+
 </div>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52317c2c571a9a95"></script>
 <!-- AddThis Follow END -->
@@ -47,11 +48,13 @@ defined('_JEXEC') or die;
  <li class="title-area right language-wide language-text"><a href="#"><span>Ita/Eng</span></a></li>
 
    <!-- AddThis Follow BEGIN -->
-<div class="right language-wide addthis_toolbox addthis_default_style" style="margin-top:6px; margin-right: -10px;">
+<div class="right language-wide addthis_toolbox addthis_default_style" style="margin-top:6px; margin-right: -10px; height: 45px;">
 <!-- <a class="addthis_button_facebook_follow" addthis:userid="YOUR-PROFILE"></a> -->
 <a class="addthis_button_facebook_follow" addthis:url="https://www.facebook.com/pages/COTE/140940539252548"></a>
 <a class="addthis_button_twitter_follow" addthis:userid="cote_italia"></a>
-<a class="addthis_button_instagram_follow" addthis:userid="cote_italia"></a>
+<a class="addthis_button_instagram_follow" addthis:userid="cote_official"></a>
+<a class="addthis_button_pinterest_follow" addthis:userid="coteofficial"></a>
+<a class="addthis_button_tumblr_follow" addthis:userid="cote-official"></a>
 </div>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52317c2c571a9a95"></script>
 <!-- AddThis Follow END -->
