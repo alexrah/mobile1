@@ -157,7 +157,7 @@ class plgContentJw_sigpro_multi extends JPlugin
 		$smartResize = $pluginParams->get('smartResize', 1);
 		$jpg_quality = $pluginParams->get('jpg_quality', 80);
 		$singlethumbmode = $pluginParams->get('singlethumbmode', 0);
-		$sortorder = $pluginParams->get('sortorder', '0');
+		$sortorder = $pluginParams->get('sortorder', '3');
 		$showcaptions = $pluginParams->get('showcaptions', 1);
 		$wordLimit = $pluginParams->get('wordlimit', 0);
 		$enabledownload = $pluginParams->get('enabledownload', 1);

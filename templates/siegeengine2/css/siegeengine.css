@@ -118,10 +118,15 @@ ul, ol {
 }
 
 .top-bar-section li.item-102 a{ /* ADD CUSTOM LEFT MARGIN TO FIRST MENU ITEM  */
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 
-
+ul.left{
+ margin-left: 15px;
+}
+li.toggle-topbar.homemenu{
+  z-index: 1;
+}
 
 .top-bar-section li.language-text a:not(.button)  {
   background: white;
@@ -464,19 +469,39 @@ div.banner-logo>a>img{
 }
 
 @media screen and (min-width: 768px){
-.contact h3#press{ margin-top: 50px; }
+/* .contact h3#press{ margin-top: 40px; } */
 }
 
 .contact h1{
-  font-size: 1.0em;
+  font-family: 'Gill Sans W01 Book';
+  font-size: 0.8em;
   color: #9a9a9a;
-
+  text-transform: uppercase;
+  line-height: 20px;
 }
 
+
+.contact a h1:hover{
+  color: #222222;
+}
 .contact h2{
-  margin-bottom: -5px;
+  /* margin-bottom: -5px; */
   font-size: 1.4em;
+  text-transform: uppercase;
 }
+
+/* .contact a h2:hover{ */
+.contact a h2:hover{
+  color: #9a9a9a;
+}
+.contact h3#showroom{ 
+  z-index: -999999;
+}
+
+.foxcontainer_m96{
+  z-index: 121232131;
+}
+
 @media screen and (min-width: 940px){
   .row .contact{
     margin-top: 0px;
@@ -484,11 +509,16 @@ div.banner-logo>a>img{
 }
 
 @media screen and (min-width: 768px){
+  h3.foxtitle{
+   margin-top: 47px;
+  }
+
 .contact h3{
   margin-bottom: -10px;
 }
 .contact h2{
-  margin-bottom: -10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 .contact h1{
   margin-bottom: -5px;
@@ -620,10 +650,12 @@ div.banner-logo>a>img{
  /* text-shadow: 0 0 1px rgba(0, 0, 0, 0.2); */
  text-shadow: 0 0 0 rgba(0, 0, 0, 1);
  -moz-osx-font-smoothing: grayscale;  
- letter-spacing: 0.02em;
+ filter: progid:DXImageTransform.Microsoft.Shadow(color=#222222, direction=0); /* IE8 */
+ filter: glow(color=black,strength=5); 
+ letter-spacing: 0.01em;
 }
 .identity img{
-  margin: 2% auto;
+  margin: 1% auto 2%;
   /* display: inline-block; */
 }
 
@@ -643,7 +675,7 @@ div.banner-logo>a>img{
 }
 @media screen and (min-width: 850px) and (max-width: 940px){
   #first {margin-top: 5%;}
-  #second{ margin-top: -17%;}
+  #second{ margin-top: -16%;}
  .identity img{ margin: -23% auto 0;}
 }
 /* CUSTOM IMAGES FOR ADDTHIS SHARING FOLLOW PLUGIN  */
@@ -678,9 +710,14 @@ div.banner-logo>a>img{
   }
 }
 
+@media screen and (max-width: 300px){
+  .at300bs{ display: none;}
+}
+
 /* VIDEO HOMEPAGE CUSTOM STYLES */
 
 @media screen and (max-width:940px){
  #my_video_1 { margin-top: 30px;}
 }
+
 

@@ -221,7 +221,8 @@ class FieldsBuilder extends FDataPump
 			'>';
 
 		// Insert an empty option
-		$result .= '<option value=""></option>';
+		// $result .= '<option value=""></option>';
+		$result .= '<option value="">Prego selezionare:</option>';
 
 		// and the actual options
 		$options = explode(",", $field['Values']);

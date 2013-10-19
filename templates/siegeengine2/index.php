@@ -16,9 +16,10 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/normalize.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/foundation.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/siegeengine.css" />
-    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/custom.modernizr.js"></script>
+    <!-- <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/custom.modernizr.js"></script>\
+ -->
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/cufon-yui.js" type="text/javascript"></script>
-    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/compact-bold_700.font.js" type="text/javascript"></script> 
+    <!-- <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/compact-bold_700.font.js" type="text/javascript"></script>  -->
 
     <script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/gill_sans_400.font.js"></script>
 
@@ -41,7 +42,7 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
 
 </script>
 
-<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/419c765f-5754-4275-aab0-b2b1ebd30c30.css"/>
+<link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/419c765f-5754-4275-aab0-b2b1ebd30c30.css"/>
       <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->

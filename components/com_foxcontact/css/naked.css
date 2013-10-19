@@ -66,6 +66,7 @@ div#foxcontainer<?php echo $uid ?> .btn
   width: 90%;
   height: 30px;
   line-height: 6px;
+  margin-top: 5px;
 }
 
 /* Files list */
@@ -127,10 +128,18 @@ div#foxcontainer<?php echo $uid ?> input[type="tel"],
 div#foxcontainer<?php echo $uid ?> input[type="color"]
 {
   float: left;
-  margin: 1% 1% 0 0;
+  /* margin: 1% 1% 0 0; */
+  margin: 2% 0.5% ;
+  /* margin: 1% -1% 1% 0.5% ; */
   width: 44%;
   /* display: inline-block; */
 }
+
+.asterisk{
+  display: none;
+  /* margin-left: -10%; */
+}
+
 
 div#foxcontainer<?php echo $uid ?> textarea{
   width: 90%;
@@ -139,14 +148,15 @@ div#foxcontainer<?php echo $uid ?> textarea{
 div#foxcontainer<?php echo $uid ?> .control-group select
 {
   width: 90%;  
-  margin: 1% auto;
+  margin: 2% auto;
 }
 
 div#foxcontainer<?php echo $uid ?> .control-group label{
   font-size: 0.80em;
   font-family: 'Gill Sans W01 Book';
   letter-spacing: -0.3px;
-  margin: -8px auto 0;
+  /* margin: -8px auto 0; */
+  margin: auto 0;
 }
 
 /* Green font */
