@@ -155,7 +155,7 @@ class plgContentJw_sigpro extends JPlugin
 		$thb_width = $pluginParams->get('thb_width', 200);
 		$thb_height = $pluginParams->get('thb_height', 160);
 		$smartResize = $pluginParams->get('smartResize', 1);
-		$jpg_quality = $pluginParams->get('jpg_quality', 80);
+		$jpg_quality = $pluginParams->get('jpg_quality', 100);
 		$singlethumbmode = $pluginParams->get('singlethumbmode', 0);
 		$sortorder = $pluginParams->get('sortorder', '0');
 		$showcaptions = $pluginParams->get('showcaptions', 1);

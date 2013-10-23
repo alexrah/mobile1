@@ -290,6 +290,14 @@ class SimpleImageGalleryProHelper
 
 				// convert and save all thumbs to .jpg
 				$success = imagejpeg($thumb, $thumbimage, $jpg_quality);
+				// $success = imagepng($thumb, $thumbimage, $jpg_quality);
+        //
+        //
+        // $success = new Imagick($thumb);
+        // $success->resizeImage(235,360,Imagick::FILTER_LANCZOS,1);
+        // $success->writeImage($success);
+        // $success->destroy(); 
+
 
 				// Bail out if there is a problem in the GD conversion
 				if (!$success)
@@ -308,6 +316,7 @@ class SimpleImageGalleryProHelper
 				$gallery[$key]->sourceImageFilePath = 'http://src'.rand(1,6).'.sencha.io/'.$resizeSrcImage.'/'.JURI::root(false).$srcimgfolder.'/'.self::replaceWhiteSpace($filename);
 			}
 			$gallery[$key]->thumbImageFilePath = $siteUrl.'cache/jw_sigpro/'.$prefix.$gal_id.'_'.strtolower(self::cleanThumbName($thumbfilename));
+			// $gallery[$key]->thumbImageFilePath = $siteUrl.$srcimgfolder.'/'.self::replaceWhiteSpace($filename);
 			$gallery[$key]->width = $thb_width;
 			$gallery[$key]->height = $thb_height;
 
