@@ -78,7 +78,8 @@ top: -2px;
 }
 
 ul, ol {
-	margin-left: 5px;
+	/* margin-left: 5px;\
+ */
 }
 .top-bar ul {
 	margin-left:0;	
