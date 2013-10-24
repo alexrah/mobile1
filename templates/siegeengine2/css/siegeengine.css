@@ -495,11 +495,11 @@ div.banner-logo>a>img{
   color: #9a9a9a;
 }
 .contact h3#showroom{ 
-  z-index: -999999;
+  /* z-index: -999999; */
 }
 
 .foxcontainer_m96{
-  z-index: 121232131;
+  /* z-index: 121232131; */
 }
 
 @media screen and (min-width: 940px){
@@ -530,6 +530,10 @@ div.banner-logo>a>img{
   .contact #mail{
     margin-left: 2%;
   }
+}
+
+@media screen and (max-width: 768px){
+  .contact #contact-right{ float: left; }
 }
 
 /* CUSTOM STYLES FOR CLOUD-LIKE LINKS IN WEBPAGE */
