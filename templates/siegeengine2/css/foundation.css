@@ -1127,10 +1127,9 @@ code {
 ul,
 ol,
 dl {
-  /* font-size: 1em; */
-  font-size: 1.25em;
-  /* font-size: 1.3em; */
-  line-height: 1.6;
+  font-size: 24px;
+  /* font-size: 1.4em; */
+  /* line-height: 1.6em; */
   margin-bottom: 1.25em;
   list-style-position: outside;
   font-family: inherit; }
@@ -2933,7 +2932,9 @@ label.error {
     height: auto;
     display: block;
     background: #222222;
-    font-size: 16;
+    font-size: 29px;
+    /* font-size: 1.7em; */
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     margin: 0; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
@@ -2948,7 +2949,8 @@ label.error {
     color: #222222;
     padding: 0px 0 0px 0;
     padding-left: 5px;
-    /* font-size: 0.8125em; */
+    font-size: 0.8125em;
+    /* font-size: 1em; */
     font-weight: bold;
     background: #222222; }
     .top-bar-section ul li > a.button {
