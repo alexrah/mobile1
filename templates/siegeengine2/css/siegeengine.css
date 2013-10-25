@@ -136,7 +136,8 @@ li.toggle-topbar.homemenu{
    margin-right: 10px;   /* ADDED TO FIX ITA/ENG MARGIN AFTER CHANGING FONT AND SPACING */ 
 }
 .top-bar-section .dropdown li a:not(.button)  {
-  padding: 2px 5px;
+  padding: 0px 5px;
+  margin: -1px auto -1px;
 }
 .top-bar-section ul li.active > a {
 background: #4e6d8d;

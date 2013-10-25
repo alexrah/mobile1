@@ -19,7 +19,7 @@ defined('_JEXEC') or die('Restricted access');
 			<span class="sigProLinkWrapper">
 				<a href="<?php echo $photo->sourceImageFilePath; ?>" class="sigProLink<?php echo $extraClass; ?>" style="width:<?php echo $photo->width; ?>px;height:<?php echo $photo->height; ?>px;" rel="<?php echo $relName; ?>[gallery<?php echo $gal_id; ?>]" title="<?php echo $photo->captionDescription.$photo->downloadLink.$modulePosition; ?>" target="_blank"<?php echo $customLinkAttributes; ?>>
 					<?php if(($gal_singlethumbmode && $count==0) || !$gal_singlethumbmode): ?>
-					<img class="sigProImg" src="<?php echo $transparent; ?>" alt="<?php echo JText::_('JW_SIGP_LABELS_08').' '.$photo->filename; ?>" title="<?php echo JText::_('JW_SIGP_LABELS_08').' '.$photo->filename; ?>" style="width:<?php echo $photo->width; ?>px;height:<?php echo $photo->height; ?>px;background-image:url(<?php echo $photo->thumbImageFilePath; ?>);" />
+					<img class="sigProImg" src="<?php echo $transparent; ?>" alt="<?php echo JText::_('JW_SIGP_LABELS_08').' '.$photo->filename; ?>" title="<?php echo JText::_('JW_SIGP_LABELS_08').' '.$photo->filename; ?>" style="width:<?php echo $photo->width; ?>px;height:<?php echo $photo->height; ?>px;background-image:url(<?php echo $photo->thumbImageFilePath; ?>); background-size: 100%; background-repeat: no-repeat; background-position: 50% 50%;" />
 					<?php endif; ?>
 					<?php if($gal_captions): ?>
 					<span class="sigProPseudoCaption"><b><?php echo $photo->captionTitle; ?></b></span>

@@ -304,7 +304,7 @@ class SimpleImageGalleryProMultiHelper
 			// Assemble the image elements
 			$gallery[$key]->filename = $filename;
 			// $gallery[$key]->sourceImageFilePath = $siteUrl.$srcimgfolder.'/'.self::replaceWhiteSpace($filename);
-			$gallery[$key]->sourceImageFilePath = $siteUrl.$srcimgfolder.'/big/'.self::replaceWhiteSpace($filename);
+			$gallery[$key]->sourceImageFilePath = $siteUrl.$srcimgfolder.'/'.self::replaceWhiteSpace($filename);
 			if($resizeSrcImage){
 				$gallery[$key]->sourceImageFilePath = 'http://src'.rand(1,6).'.sencha.io/'.$resizeSrcImage.'/big/'.JURI::root(false).$srcimgfolder.'/'.self::replaceWhiteSpace($filename);
 			}

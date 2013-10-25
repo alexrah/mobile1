@@ -19,7 +19,7 @@ defined('_JEXEC') or die('Restricted access');
 		<span class="sigFreeLinkOuterWrapper">
 			<span class="sigFreeLinkWrapper">
 				<a href="<?php echo $photo->sourceImageFilePath; ?>" class="sigFreeLink<?php echo $extraClass; ?>" style="width:<?php echo $photo->width; ?>px;height:<?php echo $photo->height; ?>px;" rel="<?php echo $relName; ?>[gallery<?php echo $gal_id; ?>]" title="<?php echo JText::_('JW_PLG_SIG_YOU_ARE_VIEWING').' '.$photo->filename; ?>" target="_blank"<?php echo $customLinkAttributes; ?>>
-					<img class="sigFreeImg" src="<?php echo $transparent; ?>" alt="<?php echo JText::_('Click to enlarge image').' '.$photo->filename; ?>" title="<?php echo JText::_('Click to enlarge image').' '.$photo->filename; ?>" style="width:<?php echo $photo->width; ?>px;height:<?php echo $photo->height; ?>px;background-image:url(<?php echo $photo->thumbImageFilePath; ?>);" />
+					<img class="sigFreeImg" src="<?php echo $transparent; ?>" alt="<?php echo JText::_('Click to enlarge image').' '.$photo->filename; ?>" title="<?php echo JText::_('Click to enlarge image').' '.$photo->filename; ?>" style="width:<?php echo $photo->width; ?>px;height:<?php echo $photo->height; ?>px;background-image:url(<?php echo $photo->thumbImageFilePath; ?>);background-size: 100%; background-repeat: no-repeat; background-position: 50% 50%;" />
 				</a>
 			</span>
 		</span>

@@ -2817,7 +2817,7 @@ label.error {
 .top-bar {
   overflow: hidden;
   height: 30px;
-  line-height: 30px;
+  line-height: 22px;
   position: relative;
   background: #ffffff;
   margin-bottom: -0.5em; }
