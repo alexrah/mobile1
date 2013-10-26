@@ -744,4 +744,8 @@ div.banner-logo>a>img{
  #my_video_1 { margin-top: 30px;}
 }
 
+/* SMALL SCREEN LAYOUT FOR DAILY PAGE  */
 
+@media screen and (max-width: 940px){
+  iframe#blockrandom{ margin-top: 35px; }
+}
