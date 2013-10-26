@@ -94,7 +94,7 @@ ul, ol {
 }
 .top-bar .toggle-topbar a{
   height: 25px;
-  line-height: 25px;
+  line-height: 32px;
   padding: 3px 15px;
 }
 .top-bar.expanded .title-area  {
@@ -137,7 +137,7 @@ li.toggle-topbar.homemenu{
 }
 .top-bar-section .dropdown li a:not(.button)  {
   padding: 0px 5px;
-  margin: -1px auto -1px;
+  margin: -1px 0 -1px 15px;
 }
 .top-bar-section ul li.active > a {
 background: #4e6d8d;
@@ -145,6 +145,10 @@ background: #4e6d8d;
 .top-bar-section li a:not(.button):hover {
   background: #222222;
   color: white;
+}
+
+.title.back{
+  font-size: 20px;
 }
 
 /* Buttons */
@@ -470,10 +474,6 @@ div.banner-logo>a>img{
   margin-top: 0px;
 }
 
-@media screen and (min-width: 768px){
-/* .contact h3#press{ margin-top: 40px; } */
-}
-
 .contact h1{
   font-family: 'Gill Sans W01 Book';
   font-size: 0.8em;
@@ -517,9 +517,6 @@ div.banner-logo>a>img{
 }
 
 @media screen and (min-width: 768px){
-  h3.foxtitle{
-   margin-top: 37px;
-  }
 
 .contact h3{
   margin-bottom: -15px;
@@ -532,17 +529,20 @@ div.banner-logo>a>img{
   margin-bottom: -5px;
   }
 .contact h3#showroom{ margin-top: 0px;}
+.contact h3#business{margin-top: 4px;}
+
 }
 
 @media screen and (max-width: 940px) and (min-width: 768px){
-  .contact #mail{
-    margin-left: 2%;
-  }
+  .contact #mail{ margin-left: 2%; }
+  h3.foxtitle{ margin-top: 15px; }
 }
 
 @media screen and (max-width: 768px){
   .contact #contact-right{ float: left; }
+  .contact h1{ margin: 0 auto; }
 }
+
 
 /* CUSTOM STYLES FOR CLOUD-LIKE LINKS IN WEBPAGE */
 .isotope{
