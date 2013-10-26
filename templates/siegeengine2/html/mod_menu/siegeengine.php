@@ -15,7 +15,8 @@ defined('_JEXEC') or die;
  <ul class="title-area">
     <!-- Title Area -->
 
-    <li class="right language"><a href="#"><span>Ita/Eng</span></a></li>
+    <!-- <li class="right language"><a href="index.php/identity">ITA</a>/<a href="index.php/identity-eng">ENG</a></li> -->
+<!-- <a href="#"><span>Ita/Eng</span></a></li> -->
    <!-- AddThis Follow BEGIN -->
 <div class="right language addthis_toolbox addthis_default_style" style="margin-top:9px;">
 <a class="addthis_button_facebook_follow" addthis:url="https://www.facebook.com/pages/COTE/140940539252548"></a>
@@ -45,10 +46,10 @@ defined('_JEXEC') or die;
 
    <ul class="top-bar-section">
 
- <li class="title-area right language-wide language-text"><a href="#"><span>Ita/Eng</span></a></li>
+ <li class="title-area right language-wide language-text"><a style="margin-right: 0px;" href="index.php/identity">Ita</a>/<a style="margin-right: 10px" href="index.php/identity-eng">Eng</a></li>
 
    <!-- AddThis Follow BEGIN -->
-<div class="right language-wide addthis_toolbox addthis_default_style" style="margin-top:6px; margin-right: -10px; height: 45px;">
+<div class="right language-wide addthis_toolbox addthis_default_style" style="margin-top:6px; margin-right: -10px; height: 35px;">
 <!-- <a class="addthis_button_facebook_follow" addthis:userid="YOUR-PROFILE"></a> -->
 <a class="addthis_button_facebook_follow" addthis:url="https://www.facebook.com/pages/COTE/140940539252548"></a>
 <a class="addthis_button_twitter_follow" addthis:userid="cote_italia"></a>

@@ -90,8 +90,11 @@ ul, ol {
 	 /* background: #34495e;	 */
    padding: 8px 5px;
    text-transform: uppercase;
-   display: none;
+   /* display: none; */
 }
+
+.language { display: none; } 
+
 .top-bar .toggle-topbar a{
   height: 25px;
   line-height: 32px;
@@ -135,6 +138,14 @@ li.toggle-topbar.homemenu{
   line-height: 45px;
    margin-right: 10px;   /* ADDED TO FIX ITA/ENG MARGIN AFTER CHANGING FONT AND SPACING */ 
 }
+
+@media screen and (max-width: 940px){
+
+.top-bar-section li.language-text a:not(.button)  {
+  line-height: 10px;
+}
+}
+
 .top-bar-section .dropdown li a:not(.button)  {
   padding: 0px 5px;
   margin: -1px 0 -1px 15px;
@@ -717,9 +728,10 @@ div.banner-logo>a>img{
 
 @media screen and (max-width: 935px){
 .at300bs{
-  margin-top: -10px;
+  margin-top: -15px;
   margin-right: -5px;
   }
+  .at15t_tumblr{ margin-right: 3px;}
 }
 
 @media screen and (max-width: 300px){

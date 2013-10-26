@@ -129,16 +129,16 @@ $("videojs.CaptionsTrack",u.Sb);$("videojs.SubtitlesTrack",u.Yb);$("videojs.Chap
 
 
 // ADD CLICK TO PLAY FEATURE AS FALLBACK FOR DEVICES NOT SUPPORTING AUTOPLAY
-// var autoplay_android = document.getElementById('my_video_1');
+var autoplay_android = document.getElementById('my_video_1');
 // var autoplay_android = videojs("my_video_1");
 // $("#my_video_1").
-// autoplay_android.addEventListener('click', function(){
-//     var isPaused = autoplay_android.paused();
-//     if(isPaused){
-//     autoplay_android.play();
-//     }
-//     else {
-//     autoplay_android.pause();
-//     }
-//     }, false);
+autoplay_android.addEventListener('click', function(){
+    // var isPaused = autoplay_android.paused();
+    // if(isPaused){
+    autoplay_android.play();
+    // }
+    // else {
+    // autoplay_android.pause();
+    // }
+    }, false);
 
