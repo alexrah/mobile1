@@ -52,6 +52,7 @@ body {
  
  font-family: compact-bold; 
 	/* color:#222222; */
+  -webkit-text-size-adjust: none;
 }
 h1, h2, h3, h4, h5, h6 {
   /* font-family: 'Source Sans Pro', sans-serif; */
@@ -134,9 +135,10 @@ li.toggle-topbar.homemenu{
 
 .top-bar-section li.language-text a:not(.button)  {
   background: white;
-  padding: 10px 5px;
-  line-height: 45px;
+  padding: 9px 5px;
+  line-height: 46px;
    margin-right: 10px;   /* ADDED TO FIX ITA/ENG MARGIN AFTER CHANGING FONT AND SPACING */ 
+   z-index: -121112;
 }
 
 @media screen and (max-width: 940px){
@@ -148,7 +150,7 @@ li.toggle-topbar.homemenu{
 
 .top-bar-section .dropdown li a:not(.button)  {
   padding: 0px 5px;
-  margin: -1px 0 -1px 15px;
+  margin: 0px 0 -1px 15px;
 }
 .top-bar-section ul li.active > a {
 background: #4e6d8d;
@@ -740,8 +742,33 @@ div.banner-logo>a>img{
 
 /* VIDEO HOMEPAGE CUSTOM STYLES */
 
+
+  .video-js {
+    width: auto;
+    margin: auto;
+    text-align: center;
+  
+  }
+
 @media screen and (max-width:940px){
  #my_video_1 { margin-top: 30px;}
+}
+
+@media screen and (min-width:1010px){ 
+  .video-js { height: 545px; width: 100%; }
+}
+
+@media screen and (max-width:1009px) and (min-width: 769px){
+  /* .video-js { height: 415px; margin: 0 auto; display:block; } */
+  .video-js { height: 100%; width:100%; }
+}
+@media screen and (width: 768px){ 
+  .video-js { height: 415px; width: 100%;}
+}
+
+
+@media screen and (max-width: 767px){
+  .video-js { height: 100%; width: 100%; }
 }
 
 /* SMALL SCREEN LAYOUT FOR DAILY PAGE  */
