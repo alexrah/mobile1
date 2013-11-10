@@ -554,9 +554,15 @@ div.banner-logo>a>img{
 @media screen and (max-width: 768px){
   .contact #contact-right{ float: left; }
   .contact h1{ margin: 0 auto; }
+  /* #mail {margin-left: 25%;} */
 }
-
-
+@media screen and (max-width: 767px) {
+  .large-5 {
+   width: 100%!important;
+   margin-left: 25%;
+  } 
+   #contact-right{margin-left: 25%;}
+}
 /* CUSTOM STYLES FOR CLOUD-LIKE LINKS IN WEBPAGE */
 .isotope{
   /* margin: 0 5% 0; */
@@ -755,7 +761,10 @@ div.banner-logo>a>img{
 }
 
 @media screen and (min-width:1010px){ 
-  .video-js { height: 545px; width: 100%; }
+  .video-js {
+    height: 545px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width:1009px) and (min-width: 769px){
@@ -763,12 +772,23 @@ div.banner-logo>a>img{
   .video-js { height: 100%; width:100%; }
 }
 @media screen and (width: 768px){ 
-  .video-js { height: 415px; width: 100%;}
+  .video-js {
+    height: 415px;
+    width: 100%;
+  }
+}
+@media screen and (min-device-width : 320px) and (max-device-width : 568px){
+  .video-js{
+    height: 150px;
+  }
 }
 
-
 @media screen and (max-width: 767px){
-  .video-js { height: 100%; width: 100%; }
+  /* .video-js { height: 100%; width: 100%; } */
+  .video-js {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 /* SMALL SCREEN LAYOUT FOR DAILY PAGE  */

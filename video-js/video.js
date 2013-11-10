@@ -132,13 +132,17 @@ $("videojs.CaptionsTrack",u.Sb);$("videojs.SubtitlesTrack",u.Yb);$("videojs.Chap
 var autoplay_android = document.getElementById('my_video_1');
 // var autoplay_android = videojs("my_video_1");
 // $("#my_video_1").
+// var isPaused = autoplay_android.paused();
+// autoplay_android.play();
 autoplay_android.addEventListener('click', function(){
     // var isPaused = autoplay_android.paused();
-    // if(isPaused){
-    autoplay_android.play();
-    // }
-    // else {
-    // autoplay_android.pause();
-    // }
+    if(this.paused){
+    this.play();
+    }
+    else {
+    this.pause();
+    }
     }, false);
-
+autoplay_android.onended = function(e){
+  this.play();
+}
